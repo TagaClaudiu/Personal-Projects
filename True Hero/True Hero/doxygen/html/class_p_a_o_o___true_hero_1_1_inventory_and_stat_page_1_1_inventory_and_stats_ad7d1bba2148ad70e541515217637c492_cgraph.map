@@ -1,0 +1,17 @@
+<map id="PAOO_TrueHero.InventoryAndStatPage.InventoryAndStats.Draw" name="PAOO_TrueHero.InventoryAndStatPage.InventoryAndStats.Draw">
+<area shape="rect" id="node1" title=" " alt="" coords="5,431,224,472"/>
+<area shape="rect" id="node2" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_moving_entity.html#a00f831ecb26fe1912b8ba4cefb2a6a8d" title=" " alt="" coords="297,5,510,47"/>
+<area shape="rect" id="node3" href="$class_p_a_o_o___true_hero_1_1_maps_1_1_world.html#aa2c7c84aa3444bdec8c2029c27d0b999" title=" " alt="" coords="296,71,511,112"/>
+<area shape="rect" id="node4" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_player.html#abf73f8d467d3be1f0eee67cbccb6a435" title=" " alt="" coords="298,136,509,177"/>
+<area shape="rect" id="node5" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_player.html#ac3aec255a2a0dc0975628f4995217292" title=" " alt="" coords="298,201,509,243"/>
+<area shape="rect" id="node6" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_moving_entity.html#a245f8a580f7e31046dc2b55de4b345f8" title=" " alt="" coords="298,267,509,308"/>
+<area shape="rect" id="node7" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_player.html#af05f8572b37ff57497fe9a22c8a293fd" title=" " alt="" coords="298,332,509,373"/>
+<area shape="rect" id="node8" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_player.html#ae6255cf501a7dbccbc9f9143806fd92d" title=" " alt="" coords="298,397,509,439"/>
+<area shape="rect" id="node9" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_player.html#ad7a4e7ff1c7252702fa18c6b2b788cab" title=" " alt="" coords="298,463,509,504"/>
+<area shape="rect" id="node10" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_entity.html#aaa2a1c7e08c65e36825834089506f640" title=" " alt="" coords="290,528,517,569"/>
+<area shape="rect" id="node11" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_player.html#aea5dc3f07ce9d76b93e469743d4cca49" title=" " alt="" coords="298,593,509,635"/>
+<area shape="rect" id="node12" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_entity_manager.html#a16615f3fc063c07aae860ad879725a33" title=" " alt="" coords="301,659,506,700"/>
+<area shape="rect" id="node13" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_player.html#a96ae535b401fca454dbc1539f818187a" title=" " alt="" coords="298,724,509,765"/>
+<area shape="rect" id="node14" href="$class_p_a_o_o___true_hero_1_1_handler.html#a6c64907e67e75dc91d9bf820286da33b" title=" " alt="" coords="309,789,498,831"/>
+<area shape="rect" id="node15" href="$class_p_a_o_o___true_hero_1_1_graphics_1_1_support_functions_1_1_string_draw_function.html#a55ea8a5fbc82a6b354e4a95c8df02d78" title=" " alt="" coords="272,855,535,896"/>
+</map>

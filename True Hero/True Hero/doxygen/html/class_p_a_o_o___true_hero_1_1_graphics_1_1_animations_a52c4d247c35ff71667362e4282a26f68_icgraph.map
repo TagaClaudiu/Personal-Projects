@@ -1,0 +1,11 @@
+<map id="PAOO_TrueHero.Graphics.Animations.Update" name="PAOO_TrueHero.Graphics.Animations.Update">
+<area shape="rect" id="node1" title=" " alt="" coords="264,235,512,276"/>
+<area shape="rect" id="node2" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_blue_flame.html#af36d17716cd1870e234f47964bcdd5bf" title=" " alt="" coords="12,5,209,47"/>
+<area shape="rect" id="node3" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_horned_mage.html#ad6ec26940772f846b18d7cf2c38d496a" title=" " alt="" coords="5,71,216,112"/>
+<area shape="rect" id="node4" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_tentacle.html#aa81be10e824959a691527bd9b608f42d" title=" " alt="" coords="5,136,216,177"/>
+<area shape="rect" id="node5" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_minion.html#aeab28b8e28482bc66d8919175c04ad24" title=" " alt="" coords="5,201,216,243"/>
+<area shape="rect" id="node6" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_shadow.html#af993d0915813ea4338afc138876bdf88" title=" " alt="" coords="5,267,216,308"/>
+<area shape="rect" id="node7" href="$class_p_a_o_o___true_hero_1_1_states_1_1_combat_state.html#a83bcfa30324ed0adccecb8bf98afedb4" title=" " alt="" coords="5,332,216,373"/>
+<area shape="rect" id="node8" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_boss.html#a11c845c8b51e2dca2797fefd7920bc92" title=" " alt="" coords="5,397,216,439"/>
+<area shape="rect" id="node9" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_player.html#a45a90916b80500b1ad765901b3908f11" title=" " alt="" coords="5,463,216,504"/>
+</map>

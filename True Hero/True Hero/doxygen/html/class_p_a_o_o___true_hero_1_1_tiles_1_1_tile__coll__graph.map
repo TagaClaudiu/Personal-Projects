@@ -1,0 +1,5 @@
+<map id="PAOO_TrueHero.Tiles.Tile" name="PAOO_TrueHero.Tiles.Tile">
+<area shape="rect" id="node1" title="The BASELINE for all map tiles." alt="" coords="87,177,261,203"/>
+<area shape="rect" id="node2" href="$class_p_a_o_o___true_hero_1_1_tiles_1_1_tile_factory_1_1_tile_factory.html" title=" " alt="" coords="5,5,180,47"/>
+<area shape="rect" id="node3" title=" " alt="" coords="205,13,309,39"/>
+</map>

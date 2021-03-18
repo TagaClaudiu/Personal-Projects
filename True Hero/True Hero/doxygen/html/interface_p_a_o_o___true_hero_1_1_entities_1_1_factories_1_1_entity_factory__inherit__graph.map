@@ -1,0 +1,5 @@
+<map id="PAOO_TrueHero.Entities.Factories.EntityFactory" name="PAOO_TrueHero.Entities.Factories.EntityFactory">
+<area shape="rect" id="node1" title="Interface for static and moving entity factories. 2 functions for 2 different types of factories." alt="" coords="5,39,235,80"/>
+<area shape="rect" id="node2" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_factories_1_1_moving_entity_factory.html" title="Not much to say." alt="" coords="283,5,512,47"/>
+<area shape="rect" id="node3" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_factories_1_1_static_entity_factory.html" title="Not much to say." alt="" coords="283,71,512,112"/>
+</map>

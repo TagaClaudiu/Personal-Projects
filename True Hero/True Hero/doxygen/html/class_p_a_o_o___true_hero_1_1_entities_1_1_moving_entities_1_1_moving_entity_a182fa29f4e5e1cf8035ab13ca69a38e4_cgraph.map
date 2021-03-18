@@ -1,0 +1,20 @@
+<map id="PAOO_TrueHero.Entities.MovingEntities.MovingEntity.Move" name="PAOO_TrueHero.Entities.MovingEntities.MovingEntity.Move">
+<area shape="rect" id="node1" title="Movement. Checks collision with entities." alt="" coords="5,421,216,463"/>
+<area shape="rect" id="node2" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_moving_entity.html#afeae111c38df6985cff9fa3328f1e996" title=" " alt="" coords="264,421,475,463"/>
+<area shape="rect" id="node7" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_moving_entity.html#a847020319614f90071c1e75e1128a3d7" title=" " alt="" coords="264,356,475,397"/>
+<area shape="rect" id="node16" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_entity.html#a1117a832eee7294f24b1a43956903450" title="Makes sure there&#39;s no collision of an entity with any other entity." alt="" coords="534,545,743,587"/>
+<area shape="rect" id="node3" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_moving_entity.html#a02ff3539d4d01bafb419360074e55fb7" title="Helpful function for collision check." alt="" coords="523,414,755,470"/>
+<area shape="rect" id="node4" href="$class_p_a_o_o___true_hero_1_1_maps_1_1_world.html#af9553720817e462bc7e923805000ae9c" title=" " alt="" coords="803,370,1038,397"/>
+<area shape="rect" id="node5" href="$class_p_a_o_o___true_hero_1_1_handler.html#a6c64907e67e75dc91d9bf820286da33b" title=" " alt="" coords="826,487,1015,528"/>
+<area shape="rect" id="node6" href="$class_p_a_o_o___true_hero_1_1_tiles_1_1_tile.html#a7fc1cd0599b7c9e67c065c663eff49fd" title="if the tile solid or not? (for collision); by default, a tile IS NOT SOLID" alt="" coords="827,421,1015,463"/>
+<area shape="rect" id="node8" href="$class_p_a_o_o___true_hero_1_1_tiles_1_1_tile.html#a5d3753862c2392e54768708d6c13c385" title=" " alt="" coords="535,313,742,339"/>
+<area shape="rect" id="node9" href="$class_p_a_o_o___true_hero_1_1_maps_1_1_world.html#a573db318388b8c4a977b12d81a3a7d08" title="helpful for changing maps. deletes all entities from current map except player" alt="" coords="528,173,749,215"/>
+<area shape="rect" id="node10" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_entity_manager.html#a47bcfd9a2386a611b2c20a10730240d6" title=" " alt="" coords="818,304,1023,345"/>
+<area shape="rect" id="node11" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_entity_manager.html#a16615f3fc063c07aae860ad879725a33" title=" " alt="" coords="818,173,1023,215"/>
+<area shape="rect" id="node12" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_player.html#adacd0c3202dcb75c4de6d87c9d2154e6" title=" " alt="" coords="815,239,1026,280"/>
+<area shape="rect" id="node13" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_entity.html#a757e2b4e4dad4b7e539165a64cf4a458" title=" " alt="" coords="807,5,1034,47"/>
+<area shape="rect" id="node14" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_entity.html#a155e47ce543386c6b62e00e40914b685" title=" " alt="" coords="803,71,1038,98"/>
+<area shape="rect" id="node15" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_entity.html#a0d52ac67dd38ad0258de210d3f1fec49" title=" " alt="" coords="803,122,1039,149"/>
+<area shape="rect" id="node17" href="$class_p_a_o_o___true_hero_1_1_maps_1_1_world.html#aa2c7c84aa3444bdec8c2029c27d0b999" title=" " alt="" coords="813,552,1028,593"/>
+<area shape="rect" id="node18" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_entity.html#a8aa8a9856e74ab7d972eda5093060834" title="gets &quot;future&quot; hitbox" alt="" coords="807,617,1034,659"/>
+</map>

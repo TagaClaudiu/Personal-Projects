@@ -1,0 +1,10 @@
+<map id="PAOO_TrueHero.Entities.MovingEntities.Enemy" name="PAOO_TrueHero.Entities.MovingEntities.Enemy">
+<area shape="rect" id="node1" title=" " alt="" coords="517,136,728,177"/>
+<area shape="rect" id="node4" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_boss.html" title=" " alt="" coords="776,5,987,47"/>
+<area shape="rect" id="node5" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_horned_mage.html" title=" " alt="" coords="776,71,987,112"/>
+<area shape="rect" id="node6" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_minion.html" title=" " alt="" coords="776,136,987,177"/>
+<area shape="rect" id="node7" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_shadow.html" title=" " alt="" coords="776,201,987,243"/>
+<area shape="rect" id="node8" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_tentacle.html" title=" " alt="" coords="776,267,987,308"/>
+<area shape="rect" id="node2" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_moving_entity.html" title="Everything that is &quot;Alive&quot;, including player. Has collisions." alt="" coords="259,136,469,177"/>
+<area shape="rect" id="node3" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_entity.html" title="The essence of all things. Items, you, monsters." alt="" coords="5,143,211,170"/>
+</map>

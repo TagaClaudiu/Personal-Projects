@@ -1,0 +1,10 @@
+<map id="PAOO_TrueHero.InventoryAndStatPage.Item.Item" name="PAOO_TrueHero.InventoryAndStatPage.Item.Item">
+<area shape="rect" id="node1" title=" " alt="" coords="525,169,723,211"/>
+<area shape="rect" id="node2" href="$class_p_a_o_o___true_hero_1_1_inventory_and_stat_page_1_1_item.html#ae8a74fa0c58efde4765f67bd0f92e4b9" title=" " alt="" coords="280,169,477,211"/>
+<area shape="rect" id="node3" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_static_entities_1_1_big_health_potion.html#adec077cdb3726eac3eb37558a9b02774" title="all entities die, and do something. Potions die when taken. Player and Enemies die in combat." alt="" coords="9,5,229,47"/>
+<area shape="rect" id="node4" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_static_entities_1_1_max_mana_potion.html#ac56989ed59514f9d36c6cab318829f76" title="all entities die, and do something. Potions die when taken. Player and Enemies die in combat." alt="" coords="8,71,229,112"/>
+<area shape="rect" id="node5" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_static_entities_1_1_max_health_potion.html#abedcf3e492edba1401d8458d9858f8d4" title="all entities die, and do something. Potions die when taken. Player and Enemies die in combat." alt="" coords="5,136,232,177"/>
+<area shape="rect" id="node6" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_static_entities_1_1_mana_potion.html#a50f1738e2fee5062b99fd334f4337c07" title="all entities die, and do something. Potions die when taken. Player and Enemies die in combat." alt="" coords="16,201,221,243"/>
+<area shape="rect" id="node7" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_static_entities_1_1_health_potion.html#a73c64cb80525e15476b783c02074d2bb" title="all entities die, and do something. Potions die when taken. Player and Enemies die in combat." alt="" coords="16,267,221,308"/>
+<area shape="rect" id="node8" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_static_entities_1_1_big_mana_potion.html#afebef126d5c2c0efd102c582b8212679" title="all entities die, and do something. Potions die when taken. Player and Enemies die in combat." alt="" coords="11,332,226,373"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="PAOO_TrueHero.Entities.MovingEntities.Shadow.GetKilled" name="PAOO_TrueHero.Entities.MovingEntities.Shadow.GetKilled">
+<area shape="rect" id="node1" title="all entities die, and do something. Potions die when taken. Player and Enemies die in combat." alt="" coords="5,169,216,211"/>
+<area shape="rect" id="node2" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_player.html#a34bc89da5705f085ebcc81f3ba959dab" title=" " alt="" coords="266,5,477,47"/>
+<area shape="rect" id="node3" href="$class_p_a_o_o___true_hero_1_1_maps_1_1_world.html#aa2c7c84aa3444bdec8c2029c27d0b999" title=" " alt="" coords="264,71,479,112"/>
+<area shape="rect" id="node4" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_entity_manager.html#a16615f3fc063c07aae860ad879725a33" title=" " alt="" coords="269,136,474,177"/>
+<area shape="rect" id="node5" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_player.html#a96ae535b401fca454dbc1539f818187a" title=" " alt="" coords="266,201,477,243"/>
+<area shape="rect" id="node6" href="$class_p_a_o_o___true_hero_1_1_handler.html#a6c64907e67e75dc91d9bf820286da33b" title=" " alt="" coords="277,267,466,308"/>
+<area shape="rect" id="node7" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_player.html#af1523cfa6efea8d6c10ece14b181d4cf" title=" " alt="" coords="266,332,477,373"/>
+</map>

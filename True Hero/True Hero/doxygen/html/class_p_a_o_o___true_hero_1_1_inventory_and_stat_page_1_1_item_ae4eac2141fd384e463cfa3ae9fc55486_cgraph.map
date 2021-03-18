@@ -1,0 +1,10 @@
+<map id="PAOO_TrueHero.InventoryAndStatPage.Item.Update" name="PAOO_TrueHero.InventoryAndStatPage.Item.Update">
+<area shape="rect" id="node1" title=" " alt="" coords="5,168,203,209"/>
+<area shape="rect" id="node2" href="$class_p_a_o_o___true_hero_1_1_inventory_and_stat_page_1_1_inventory_and_stats.html#a9cd789c748896188c37b28cae27b3342" title=" " alt="" coords="251,37,485,79"/>
+<area shape="rect" id="node5" href="$class_p_a_o_o___true_hero_1_1_maps_1_1_world.html#aa2c7c84aa3444bdec8c2029c27d0b999" title=" " alt="" coords="261,103,475,144"/>
+<area shape="rect" id="node6" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_entity_manager.html#a16615f3fc063c07aae860ad879725a33" title=" " alt="" coords="265,168,471,209"/>
+<area shape="rect" id="node7" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_player.html#ac7b423f0144d7a3a7bff067fc542f7c4" title=" " alt="" coords="259,234,477,290"/>
+<area shape="rect" id="node8" href="$class_p_a_o_o___true_hero_1_1_handler.html#a6c64907e67e75dc91d9bf820286da33b" title=" " alt="" coords="273,315,463,356"/>
+<area shape="rect" id="node3" href="$class_p_a_o_o___true_hero_1_1_inventory_and_stat_page_1_1_item.html#a4b2abfbaa4cd9fcb8c0475b914f501e7" title=" " alt="" coords="533,5,731,47"/>
+<area shape="rect" id="node4" href="$class_p_a_o_o___true_hero_1_1_inventory_and_stat_page_1_1_item.html#abb285b9aac0322be067b08f410990a78" title=" " alt="" coords="533,71,731,112"/>
+</map>

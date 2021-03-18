@@ -1,0 +1,4 @@
+<map id="PAOO_TrueHero.States.GameState" name="PAOO_TrueHero.States.GameState">
+<area shape="rect" id="node1" title="Where player moves, enemies move, map exists." alt="" coords="5,80,205,121"/>
+<area shape="rect" id="node2" href="$class_p_a_o_o___true_hero_1_1_states_1_1_state.html" title="Baseline class for all States." alt="" coords="7,5,203,32"/>
+</map>

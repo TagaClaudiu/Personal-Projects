@@ -1,0 +1,4 @@
+<map id="PAOO_TrueHero.Game.run" name="PAOO_TrueHero.Game.run">
+<area shape="rect" id="node1" title="game loop: Update &#45;&gt; Draw &#45;&gt; Update &#45;&gt; Draw &#45;&gt; ... ; is run once" alt="" coords="5,5,185,32"/>
+<area shape="rect" id="node2" href="$class_p_a_o_o___true_hero_1_1_game.html#aad66c219ab427c7c8aca73434f3330c7" title=" " alt="" coords="233,5,420,32"/>
+</map>

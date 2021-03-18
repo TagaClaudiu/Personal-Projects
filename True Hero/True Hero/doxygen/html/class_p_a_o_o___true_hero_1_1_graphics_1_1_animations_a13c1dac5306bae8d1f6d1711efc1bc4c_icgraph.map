@@ -1,0 +1,14 @@
+<map id="PAOO_TrueHero.Graphics.Animations.getCurrentFrame" name="PAOO_TrueHero.Graphics.Animations.getCurrentFrame">
+<area shape="rect" id="node1" title=" " alt="" coords="283,332,549,373"/>
+<area shape="rect" id="node2" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_blue_flame.html#ace1c75c3588f74d558afa0526c714061" title=" " alt="" coords="21,5,219,47"/>
+<area shape="rect" id="node3" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_horned_mage.html#ae89b2600218ce2ec3661b02341ef2eb3" title=" " alt="" coords="15,71,225,112"/>
+<area shape="rect" id="node4" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_shadow.html#a3e1d87e5ab7dc9a16897c53b12e403f8" title=" " alt="" coords="15,136,225,177"/>
+<area shape="rect" id="node5" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_tentacle.html#a460661564e2d71b92cf558f6099d529e" title=" " alt="" coords="15,201,225,243"/>
+<area shape="rect" id="node6" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_minion.html#a9c6a44f52d5e6d7865595f23056e551c" title=" " alt="" coords="15,267,225,308"/>
+<area shape="rect" id="node7" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_boss.html#a04ec7007487bddc136d5a920fbdacb3b" title=" " alt="" coords="15,332,225,373"/>
+<area shape="rect" id="node8" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_shadow.html#af5433cd2fb662c1614d3b6f8fa0d7a7a" title=" " alt="" coords="15,397,225,439"/>
+<area shape="rect" id="node9" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_tentacle.html#a739b5f181cb91352dc0f85d013dacedd" title=" " alt="" coords="15,463,225,504"/>
+<area shape="rect" id="node10" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_minion.html#a70e503b23cd153389be61dc94cb67150" title=" " alt="" coords="15,528,225,569"/>
+<area shape="rect" id="node11" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_boss.html#a6429e060c97cc8057d3673e918d313aa" title=" " alt="" coords="15,593,225,635"/>
+<area shape="rect" id="node12" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_horned_mage.html#a35eafb3cb7238e7b7998b78fbb75b9b4" title=" " alt="" coords="5,659,235,700"/>
+</map>

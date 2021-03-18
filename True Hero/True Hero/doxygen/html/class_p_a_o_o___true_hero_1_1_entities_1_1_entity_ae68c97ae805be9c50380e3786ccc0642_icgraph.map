@@ -1,0 +1,8 @@
+<map id="PAOO_TrueHero.Entities.Entity.isActive" name="PAOO_TrueHero.Entities.Entity.isActive">
+<area shape="rect" id="node1" title=" " alt="" coords="757,71,976,112"/>
+<area shape="rect" id="node2" href="$class_p_a_o_o___true_hero_1_1_states_1_1_combat_state.html#a12c363341a05b81af9b2dbc5adf70cc0" title=" " alt="" coords="499,5,709,47"/>
+<area shape="rect" id="node3" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_entity_manager.html#a03c261c79cd0b8e91ce3568ae52c8b24" title=" " alt="" coords="501,71,707,112"/>
+<area shape="rect" id="node6" href="$class_p_a_o_o___true_hero_1_1_states_1_1_combat_state.html#a83bcfa30324ed0adccecb8bf98afedb4" title=" " alt="" coords="499,136,709,177"/>
+<area shape="rect" id="node4" href="$class_p_a_o_o___true_hero_1_1_maps_1_1_world.html#a980b11a31a89b2247129469c157088e9" title=" " alt="" coords="253,71,451,112"/>
+<area shape="rect" id="node5" href="$class_p_a_o_o___true_hero_1_1_states_1_1_game_state.html#af27b3805fea185a906860e2d5e5a8492" title=" " alt="" coords="5,71,205,112"/>
+</map>

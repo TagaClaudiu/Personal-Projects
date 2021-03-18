@@ -1,0 +1,9 @@
+<map id="PAOO_TrueHero.InventoryAndStatPage.InventoryAndStats.Update" name="PAOO_TrueHero.InventoryAndStatPage.InventoryAndStats.Update">
+<area shape="rect" id="node1" title=" " alt="" coords="5,123,236,164"/>
+<area shape="rect" id="node2" href="$class_p_a_o_o___true_hero_1_1_states_1_1_state.html#a3b45ccf70968c60056b22e9e9e9d7351" title=" " alt="" coords="294,5,513,47"/>
+<area shape="rect" id="node3" href="$class_p_a_o_o___true_hero_1_1_handler.html#a7ed05b4880a26bc67392640fcb9cc2f2" title=" " alt="" coords="291,71,515,98"/>
+<area shape="rect" id="node4" href="$class_p_a_o_o___true_hero_1_1_game.html#a0649769451e6478479578627a56b439c" title=" " alt="" coords="296,123,511,164"/>
+<area shape="rect" id="node5" href="$class_p_a_o_o___true_hero_1_1_handler.html#a9f2d3e46b85dbb31c0be7564267fdbf2" title=" " alt="" coords="309,188,498,229"/>
+<area shape="rect" id="node7" href="$class_p_a_o_o___true_hero_1_1_keyboard_and_mouse_input_1_1_key_manager.html#a5984f4436abd7dc3c840626a75adfc56" title="makes sure you press a key for ONLY ONE FRAME." alt="" coords="284,254,523,310"/>
+<area shape="rect" id="node6" href="$class_p_a_o_o___true_hero_1_1_game.html#a82d4a031416ed6f63d973d072abdab00" title=" " alt="" coords="571,188,773,229"/>
+</map>

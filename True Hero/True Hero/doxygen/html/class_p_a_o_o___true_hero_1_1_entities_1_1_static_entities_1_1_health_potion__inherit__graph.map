@@ -1,0 +1,5 @@
+<map id="PAOO_TrueHero.Entities.StaticEntities.HealthPotion" name="PAOO_TrueHero.Entities.StaticEntities.HealthPotion">
+<area shape="rect" id="node1" title=" " alt="" coords="5,169,211,211"/>
+<area shape="rect" id="node2" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_static_entities_1_1_static_entity.html" title="Objects. Mostly potions. Only potions." alt="" coords="5,80,211,121"/>
+<area shape="rect" id="node3" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_entity.html" title="The essence of all things. Items, you, monsters." alt="" coords="5,5,211,32"/>
+</map>

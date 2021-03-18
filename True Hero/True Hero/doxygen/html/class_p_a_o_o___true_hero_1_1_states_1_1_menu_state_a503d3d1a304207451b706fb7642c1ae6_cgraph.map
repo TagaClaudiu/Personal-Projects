@@ -1,0 +1,8 @@
+<map id="PAOO_TrueHero.States.MenuState.Update" name="PAOO_TrueHero.States.MenuState.Update">
+<area shape="rect" id="node1" title=" " alt="" coords="5,104,203,145"/>
+<area shape="rect" id="node2" href="$class_p_a_o_o___true_hero_1_1_handler.html#ae64cadc53a44c0d9590bda0b329fa5c2" title=" " alt="" coords="289,5,479,47"/>
+<area shape="rect" id="node4" href="$class_p_a_o_o___true_hero_1_1_keyboard_and_mouse_input_1_1_mouse_manager.html#a11f02b88a2acad2ac1b896f46e72302d" title=" " alt="" coords="251,71,517,112"/>
+<area shape="rect" id="node5" href="$class_p_a_o_o___true_hero_1_1_keyboard_and_mouse_input_1_1_mouse_manager.html#a57e95c9d8e202c499dd753e384421a81" title=" " alt="" coords="251,136,517,177"/>
+<area shape="rect" id="node6" href="$class_p_a_o_o___true_hero_1_1_menu_u_i_1_1_u_i_manager.html#afc057e8c7dedfe1f14d62585379bb6b6" title=" " alt="" coords="265,201,503,243"/>
+<area shape="rect" id="node3" href="$class_p_a_o_o___true_hero_1_1_game.html#a92fd3886d195776ad66fcc1416d84b75" title=" " alt="" coords="565,5,784,47"/>
+</map>

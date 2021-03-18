@@ -1,0 +1,6 @@
+<map id="PAOO_TrueHero.Maps.WorldEntities.WorldEntities.map2Entities" name="PAOO_TrueHero.Maps.WorldEntities.WorldEntities.map2Entities">
+<area shape="rect" id="node1" title=" " alt="" coords="5,71,233,112"/>
+<area shape="rect" id="node2" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_entity_manager.html#a9ac9c9e4ac0f4a4e291bc274982f2321" title=" " alt="" coords="293,5,499,47"/>
+<area shape="rect" id="node3" href="$interface_p_a_o_o___true_hero_1_1_entities_1_1_factories_1_1_entity_factory.html#a8a2a9a4d833443cf42b0b4fe7fb616b5" title=" " alt="" coords="281,71,511,112"/>
+<area shape="rect" id="node4" href="$interface_p_a_o_o___true_hero_1_1_entities_1_1_factories_1_1_entity_factory.html#a694417f98fce6c3e2060ab0bbc52bc3c" title=" " alt="" coords="281,136,511,177"/>
+</map>

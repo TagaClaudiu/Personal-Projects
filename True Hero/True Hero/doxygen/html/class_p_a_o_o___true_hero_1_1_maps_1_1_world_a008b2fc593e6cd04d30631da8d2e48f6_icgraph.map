@@ -1,0 +1,7 @@
+<map id="PAOO_TrueHero.Maps.World.getHeight" name="PAOO_TrueHero.Maps.World.getHeight">
+<area shape="rect" id="node1" title=" " alt="" coords="789,39,1004,80"/>
+<area shape="rect" id="node2" href="$class_p_a_o_o___true_hero_1_1_graphics_1_1_game_camera.html#a90cce33bdc173e39cd3dd439f43f93b4" title=" " alt="" coords="527,39,741,80"/>
+<area shape="rect" id="node3" href="$class_p_a_o_o___true_hero_1_1_graphics_1_1_game_camera.html#a623fa7f4e146811dba1bcb892536d303" title=" " alt="" coords="264,5,479,47"/>
+<area shape="rect" id="node5" href="$class_p_a_o_o___true_hero_1_1_graphics_1_1_game_camera.html#a66a268f9e1cb3118c33479ee54764ba7" title=" " alt="" coords="264,71,479,112"/>
+<area shape="rect" id="node4" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_player.html#a45a90916b80500b1ad765901b3908f11" title=" " alt="" coords="5,5,216,47"/>
+</map>

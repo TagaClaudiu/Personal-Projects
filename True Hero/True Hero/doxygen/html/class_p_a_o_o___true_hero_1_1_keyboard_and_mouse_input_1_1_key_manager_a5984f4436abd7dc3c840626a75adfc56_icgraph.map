@@ -1,0 +1,7 @@
+<map id="PAOO_TrueHero.KeyboardAndMouseInput.KeyManager.keyPressedOneFrame" name="PAOO_TrueHero.KeyboardAndMouseInput.KeyManager.keyPressedOneFrame">
+<area shape="rect" id="node1" title="makes sure you press a key for ONLY ONE FRAME." alt="" coords="543,57,781,113"/>
+<area shape="rect" id="node2" href="$class_p_a_o_o___true_hero_1_1_states_1_1_settings_state.html#a7ec5485ec19a42dc1b018ca6b3276c6c" title=" " alt="" coords="273,5,486,47"/>
+<area shape="rect" id="node3" href="$class_p_a_o_o___true_hero_1_1_inventory_and_stat_page_1_1_inventory_and_stats.html#a196d775d1a4d8ef660e70416b1e38291" title=" " alt="" coords="264,123,495,164"/>
+<area shape="rect" id="node4" href="$class_p_a_o_o___true_hero_1_1_states_1_1_combat_state.html#a83bcfa30324ed0adccecb8bf98afedb4" title=" " alt="" coords="5,64,216,105"/>
+<area shape="rect" id="node5" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_player.html#a45a90916b80500b1ad765901b3908f11" title=" " alt="" coords="5,129,216,171"/>
+</map>

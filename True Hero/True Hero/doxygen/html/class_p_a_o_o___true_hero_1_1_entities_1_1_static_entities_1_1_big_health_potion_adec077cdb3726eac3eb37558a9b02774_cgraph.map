@@ -1,0 +1,14 @@
+<map id="PAOO_TrueHero.Entities.StaticEntities.BigHealthPotion.GetKilled" name="PAOO_TrueHero.Entities.StaticEntities.BigHealthPotion.GetKilled">
+<area shape="rect" id="node1" title="all entities die, and do something. Potions die when taken. Player and Enemies die in combat." alt="" coords="5,304,225,345"/>
+<area shape="rect" id="node2" href="$class_p_a_o_o___true_hero_1_1_inventory_and_stat_page_1_1_inventory_and_stats.html#a9cd789c748896188c37b28cae27b3342" title=" " alt="" coords="273,71,508,112"/>
+<area shape="rect" id="node5" href="$class_p_a_o_o___true_hero_1_1_inventory_and_stat_page_1_1_item.html#ae8a74fa0c58efde4765f67bd0f92e4b9" title=" " alt="" coords="292,136,489,177"/>
+<area shape="rect" id="node7" href="$class_p_a_o_o___true_hero_1_1_maps_1_1_world.html#aa2c7c84aa3444bdec8c2029c27d0b999" title=" " alt="" coords="283,201,498,243"/>
+<area shape="rect" id="node8" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_entity_manager.html#a16615f3fc063c07aae860ad879725a33" title=" " alt="" coords="288,267,493,308"/>
+<area shape="rect" id="node9" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_player.html#ac7b423f0144d7a3a7bff067fc542f7c4" title=" " alt="" coords="282,333,499,389"/>
+<area shape="rect" id="node10" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_player.html#a96ae535b401fca454dbc1539f818187a" title=" " alt="" coords="285,413,496,455"/>
+<area shape="rect" id="node11" href="$class_p_a_o_o___true_hero_1_1_handler.html#a6c64907e67e75dc91d9bf820286da33b" title=" " alt="" coords="296,479,485,520"/>
+<area shape="rect" id="node12" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_player.html#af1523cfa6efea8d6c10ece14b181d4cf" title=" " alt="" coords="285,544,496,585"/>
+<area shape="rect" id="node3" href="$class_p_a_o_o___true_hero_1_1_inventory_and_stat_page_1_1_item.html#a4b2abfbaa4cd9fcb8c0475b914f501e7" title=" " alt="" coords="556,5,753,47"/>
+<area shape="rect" id="node4" href="$class_p_a_o_o___true_hero_1_1_inventory_and_stat_page_1_1_item.html#abb285b9aac0322be067b08f410990a78" title=" " alt="" coords="556,71,753,112"/>
+<area shape="rect" id="node6" href="$class_p_a_o_o___true_hero_1_1_inventory_and_stat_page_1_1_item.html#aa7a3738a23f6b3c75dd67038a2e85cfe" title=" " alt="" coords="556,136,753,177"/>
+</map>

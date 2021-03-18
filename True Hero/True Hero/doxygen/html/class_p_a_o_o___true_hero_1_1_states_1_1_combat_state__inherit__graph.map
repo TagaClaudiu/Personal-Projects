@@ -1,0 +1,4 @@
+<map id="PAOO_TrueHero.States.CombatState" name="PAOO_TrueHero.States.CombatState">
+<area shape="rect" id="node1" title="When you encounter an enemy, you fight it." alt="" coords="5,80,216,121"/>
+<area shape="rect" id="node2" href="$class_p_a_o_o___true_hero_1_1_states_1_1_state.html" title="Baseline class for all States." alt="" coords="13,5,209,32"/>
+</map>

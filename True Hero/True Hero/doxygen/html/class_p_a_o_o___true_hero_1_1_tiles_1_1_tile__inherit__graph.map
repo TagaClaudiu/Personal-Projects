@@ -1,0 +1,17 @@
+<map id="PAOO_TrueHero.Tiles.Tile" name="PAOO_TrueHero.Tiles.Tile">
+<area shape="rect" id="node1" title="The BASELINE for all map tiles." alt="" coords="5,438,180,465"/>
+<area shape="rect" id="node2" href="$class_p_a_o_o___true_hero_1_1_tiles_1_1_door__1___tile.html" title=" " alt="" coords="235,5,417,47"/>
+<area shape="rect" id="node3" href="$class_p_a_o_o___true_hero_1_1_tiles_1_1_door__2___tile.html" title=" " alt="" coords="235,71,417,112"/>
+<area shape="rect" id="node4" href="$class_p_a_o_o___true_hero_1_1_tiles_1_1_ground__1___tile.html" title=" " alt="" coords="228,136,424,177"/>
+<area shape="rect" id="node5" href="$class_p_a_o_o___true_hero_1_1_tiles_1_1_ground__2___tile.html" title=" " alt="" coords="228,201,424,243"/>
+<area shape="rect" id="node6" href="$class_p_a_o_o___true_hero_1_1_tiles_1_1_ground__3___tile.html" title=" " alt="" coords="228,267,424,308"/>
+<area shape="rect" id="node7" href="$class_p_a_o_o___true_hero_1_1_tiles_1_1_lava__1___tile.html" title=" " alt="" coords="236,332,416,373"/>
+<area shape="rect" id="node8" href="$class_p_a_o_o___true_hero_1_1_tiles_1_1_lava__2___tile.html" title=" " alt="" coords="236,397,416,439"/>
+<area shape="rect" id="node9" href="$class_p_a_o_o___true_hero_1_1_tiles_1_1_lava__3___tile.html" title=" " alt="" coords="236,463,416,504"/>
+<area shape="rect" id="node10" href="$class_p_a_o_o___true_hero_1_1_tiles_1_1_mossy_wall__1___tile.html" title=" " alt="" coords="229,528,423,569"/>
+<area shape="rect" id="node11" href="$class_p_a_o_o___true_hero_1_1_tiles_1_1_mossy_wall__2___tile.html" title=" " alt="" coords="229,593,423,635"/>
+<area shape="rect" id="node12" href="$class_p_a_o_o___true_hero_1_1_tiles_1_1_mossy_wall__3___tile.html" title=" " alt="" coords="229,659,423,700"/>
+<area shape="rect" id="node13" href="$class_p_a_o_o___true_hero_1_1_tiles_1_1_wall__1___tile.html" title=" " alt="" coords="236,724,416,765"/>
+<area shape="rect" id="node14" href="$class_p_a_o_o___true_hero_1_1_tiles_1_1_wall__2___tile.html" title=" " alt="" coords="236,789,416,831"/>
+<area shape="rect" id="node15" href="$class_p_a_o_o___true_hero_1_1_tiles_1_1_wall__3___tile.html" title=" " alt="" coords="236,855,416,896"/>
+</map>

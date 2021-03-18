@@ -1,0 +1,7 @@
+<map id="PAOO_TrueHero.Entities.Entity.NoCollisionWithEntities" name="PAOO_TrueHero.Entities.Entity.NoCollisionWithEntities">
+<area shape="rect" id="node1" title="Makes sure there&#39;s no collision of an entity with any other entity." alt="" coords="5,104,215,145"/>
+<area shape="rect" id="node2" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_entity_manager.html#a47bcfd9a2386a611b2c20a10730240d6" title=" " alt="" coords="273,5,479,47"/>
+<area shape="rect" id="node3" href="$class_p_a_o_o___true_hero_1_1_maps_1_1_world.html#aa2c7c84aa3444bdec8c2029c27d0b999" title=" " alt="" coords="269,71,483,112"/>
+<area shape="rect" id="node4" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_entity.html#a8aa8a9856e74ab7d972eda5093060834" title="gets &quot;future&quot; hitbox" alt="" coords="263,136,489,177"/>
+<area shape="rect" id="node5" href="$class_p_a_o_o___true_hero_1_1_handler.html#a6c64907e67e75dc91d9bf820286da33b" title=" " alt="" coords="281,201,471,243"/>
+</map>

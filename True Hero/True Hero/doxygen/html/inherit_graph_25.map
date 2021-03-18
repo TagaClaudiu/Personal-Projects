@@ -1,0 +1,7 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_p_a_o_o___true_hero_1_1_states_1_1_state.html" title="Baseline class for all States." alt="" coords="5,111,201,138"/>
+<area shape="rect" id="node2" href="$class_p_a_o_o___true_hero_1_1_states_1_1_combat_state.html" title="When you encounter an enemy, you fight it." alt="" coords="251,5,461,47"/>
+<area shape="rect" id="node3" href="$class_p_a_o_o___true_hero_1_1_states_1_1_game_state.html" title="Where player moves, enemies move, map exists." alt="" coords="256,71,456,112"/>
+<area shape="rect" id="node4" href="$class_p_a_o_o___true_hero_1_1_states_1_1_menu_state.html" title="The main menu. Where you start the game from." alt="" coords="257,136,455,177"/>
+<area shape="rect" id="node5" href="$class_p_a_o_o___true_hero_1_1_states_1_1_settings_state.html" title="Shows controls." alt="" coords="249,201,463,243"/>
+</map>

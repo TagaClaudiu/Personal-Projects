@@ -1,0 +1,10 @@
+<map id="PAOO_TrueHero.Entities.StaticEntities.StaticEntity" name="PAOO_TrueHero.Entities.StaticEntities.StaticEntity">
+<area shape="rect" id="node1" title="Objects. Mostly potions. Only potions." alt="" coords="259,169,464,211"/>
+<area shape="rect" id="node3" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_static_entities_1_1_big_health_potion.html" title=" " alt="" coords="512,5,717,47"/>
+<area shape="rect" id="node4" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_static_entities_1_1_big_mana_potion.html" title=" " alt="" coords="512,71,717,112"/>
+<area shape="rect" id="node5" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_static_entities_1_1_health_potion.html" title=" " alt="" coords="512,136,717,177"/>
+<area shape="rect" id="node6" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_static_entities_1_1_mana_potion.html" title=" " alt="" coords="512,201,717,243"/>
+<area shape="rect" id="node7" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_static_entities_1_1_max_health_potion.html" title=" " alt="" coords="512,267,717,308"/>
+<area shape="rect" id="node8" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_static_entities_1_1_max_mana_potion.html" title=" " alt="" coords="512,332,717,373"/>
+<area shape="rect" id="node2" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_entity.html" title="The essence of all things. Items, you, monsters." alt="" coords="5,177,211,203"/>
+</map>

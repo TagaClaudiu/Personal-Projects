@@ -1,0 +1,8 @@
+<map id="PAOO_TrueHero.Entities.MovingEntities.Enemy.Movement" name="PAOO_TrueHero.Entities.MovingEntities.Enemy.Movement">
+<area shape="rect" id="node1" title=" " alt="" coords="264,136,475,177"/>
+<area shape="rect" id="node2" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_horned_mage.html#ad6ec26940772f846b18d7cf2c38d496a" title=" " alt="" coords="5,5,216,47"/>
+<area shape="rect" id="node3" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_tentacle.html#aa81be10e824959a691527bd9b608f42d" title=" " alt="" coords="5,71,216,112"/>
+<area shape="rect" id="node4" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_shadow.html#af993d0915813ea4338afc138876bdf88" title=" " alt="" coords="5,136,216,177"/>
+<area shape="rect" id="node5" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_minion.html#aeab28b8e28482bc66d8919175c04ad24" title=" " alt="" coords="5,201,216,243"/>
+<area shape="rect" id="node6" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_boss.html#a11c845c8b51e2dca2797fefd7920bc92" title=" " alt="" coords="5,267,216,308"/>
+</map>

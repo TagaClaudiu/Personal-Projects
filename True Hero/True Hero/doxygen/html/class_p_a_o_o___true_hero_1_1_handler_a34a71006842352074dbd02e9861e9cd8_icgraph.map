@@ -1,0 +1,18 @@
+<map id="PAOO_TrueHero.Handler.getGameCamera" name="PAOO_TrueHero.Handler.getGameCamera">
+<area shape="rect" id="node1" title=" " alt="" coords="528,431,717,472"/>
+<area shape="rect" id="node2" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_static_entities_1_1_big_health_potion.html#afabed47be8d75f98d0f5cac74bb084f1" title=" " alt="" coords="264,5,469,47"/>
+<area shape="rect" id="node3" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_static_entities_1_1_big_mana_potion.html#aadc0d0702ec05010c7baf9cfeef93c3e" title=" " alt="" coords="264,71,469,112"/>
+<area shape="rect" id="node4" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_static_entities_1_1_mana_potion.html#af6e365f8ca15683b0fb2f2056827d47c" title=" " alt="" coords="264,136,469,177"/>
+<area shape="rect" id="node5" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_static_entities_1_1_max_health_potion.html#a185b617be5993e030e0978d5910c5a44" title=" " alt="" coords="264,201,469,243"/>
+<area shape="rect" id="node6" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_static_entities_1_1_health_potion.html#ac7e27937902c211b4ef30110b2a8eb19" title=" " alt="" coords="264,267,469,308"/>
+<area shape="rect" id="node7" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_static_entities_1_1_max_mana_potion.html#a581b980d1780a9da65d803e6434b1f4c" title=" " alt="" coords="264,332,469,373"/>
+<area shape="rect" id="node8" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_horned_mage.html#ae89b2600218ce2ec3661b02341ef2eb3" title=" " alt="" coords="261,397,472,439"/>
+<area shape="rect" id="node9" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_shadow.html#a3e1d87e5ab7dc9a16897c53b12e403f8" title=" " alt="" coords="261,463,472,504"/>
+<area shape="rect" id="node10" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_minion.html#a9c6a44f52d5e6d7865595f23056e551c" title=" " alt="" coords="261,528,472,569"/>
+<area shape="rect" id="node11" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_tentacle.html#a460661564e2d71b92cf558f6099d529e" title=" " alt="" coords="261,593,472,635"/>
+<area shape="rect" id="node12" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_boss.html#a04ec7007487bddc136d5a920fbdacb3b" title=" " alt="" coords="261,659,472,700"/>
+<area shape="rect" id="node13" href="$class_p_a_o_o___true_hero_1_1_maps_1_1_world.html#a397721bebf52b093ae7090a608bec66d" title=" " alt="" coords="253,725,480,751"/>
+<area shape="rect" id="node15" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_player.html#a9d4911fc0f2a30b82dfb1943231761fb" title=" " alt="" coords="261,776,472,817"/>
+<area shape="rect" id="node16" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_player.html#a45a90916b80500b1ad765901b3908f11" title=" " alt="" coords="261,841,472,883"/>
+<area shape="rect" id="node14" href="$class_p_a_o_o___true_hero_1_1_states_1_1_game_state.html#a3431099f8e1e4f0eda30dbcfc6230d3e" title=" " alt="" coords="5,717,205,759"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="PAOO_TrueHero.Entities.Entity.GetKilled" name="PAOO_TrueHero.Entities.Entity.GetKilled">
+<area shape="rect" id="node1" title="all entities die, and do something. Potions die when taken. Player and Enemies die in combat." alt="" coords="533,5,743,47"/>
+<area shape="rect" id="node2" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_moving_entity.html#a893aba2006350695295fda188a9e36dd" title="Combat function. Players/Monsters take damage from eachother." alt="" coords="264,5,485,47"/>
+<area shape="rect" id="node3" href="$class_p_a_o_o___true_hero_1_1_states_1_1_combat_state.html#a83bcfa30324ed0adccecb8bf98afedb4" title=" " alt="" coords="5,5,216,47"/>
+</map>

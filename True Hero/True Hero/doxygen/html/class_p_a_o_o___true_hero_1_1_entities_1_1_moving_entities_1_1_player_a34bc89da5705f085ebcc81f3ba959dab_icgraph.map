@@ -1,0 +1,7 @@
+<map id="PAOO_TrueHero.Entities.MovingEntities.Player.gainExp" name="PAOO_TrueHero.Entities.MovingEntities.Player.gainExp">
+<area shape="rect" id="node1" title=" " alt="" coords="264,104,475,145"/>
+<area shape="rect" id="node2" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_horned_mage.html#a452057301f5e33757132d6c7191e12bb" title="all entities die, and do something. Potions die when taken. Player and Enemies die in combat." alt="" coords="5,5,216,47"/>
+<area shape="rect" id="node3" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_tentacle.html#a4972fef457c09632eea55c3c02e043b1" title="all entities die, and do something. Potions die when taken. Player and Enemies die in combat." alt="" coords="5,71,216,112"/>
+<area shape="rect" id="node4" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_shadow.html#a3cccfce4099e3965d85dd78cc5bc3d7a" title="all entities die, and do something. Potions die when taken. Player and Enemies die in combat." alt="" coords="5,136,216,177"/>
+<area shape="rect" id="node5" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_minion.html#a7cb646dd0b3ef8f0e974bb3ec0eca8bf" title="all entities die, and do something. Potions die when taken. Player and Enemies die in combat." alt="" coords="5,201,216,243"/>
+</map>

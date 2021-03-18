@@ -1,0 +1,9 @@
+<map id="PAOO_TrueHero.Maps.World.loadAWorld" name="PAOO_TrueHero.Maps.World.loadAWorld">
+<area shape="rect" id="node1" title="helpful for changing maps. deletes all entities from current map except player" alt="" coords="5,169,227,211"/>
+<area shape="rect" id="node2" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_entity_manager.html#a47bcfd9a2386a611b2c20a10730240d6" title=" " alt="" coords="290,5,495,47"/>
+<area shape="rect" id="node3" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_entity_manager.html#a16615f3fc063c07aae860ad879725a33" title=" " alt="" coords="290,71,495,112"/>
+<area shape="rect" id="node4" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_player.html#adacd0c3202dcb75c4de6d87c9d2154e6" title=" " alt="" coords="287,136,498,177"/>
+<area shape="rect" id="node5" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_entity.html#a757e2b4e4dad4b7e539165a64cf4a458" title=" " alt="" coords="279,201,506,243"/>
+<area shape="rect" id="node6" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_entity.html#a155e47ce543386c6b62e00e40914b685" title=" " alt="" coords="275,267,510,294"/>
+<area shape="rect" id="node7" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_entity.html#a0d52ac67dd38ad0258de210d3f1fec49" title=" " alt="" coords="275,318,511,345"/>
+</map>

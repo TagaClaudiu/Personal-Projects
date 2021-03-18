@@ -1,0 +1,7 @@
+<map id="PAOO_TrueHero.Entities.MovingEntities.MovingEntity.moveX" name="PAOO_TrueHero.Entities.MovingEntities.MovingEntity.moveX">
+<area shape="rect" id="node1" title=" " alt="" coords="5,57,216,98"/>
+<area shape="rect" id="node2" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_moving_entity.html#a02ff3539d4d01bafb419360074e55fb7" title="Helpful function for collision check." alt="" coords="264,49,496,105"/>
+<area shape="rect" id="node3" href="$class_p_a_o_o___true_hero_1_1_maps_1_1_world.html#af9553720817e462bc7e923805000ae9c" title=" " alt="" coords="544,5,779,32"/>
+<area shape="rect" id="node4" href="$class_p_a_o_o___true_hero_1_1_handler.html#a6c64907e67e75dc91d9bf820286da33b" title=" " alt="" coords="567,57,756,98"/>
+<area shape="rect" id="node5" href="$class_p_a_o_o___true_hero_1_1_tiles_1_1_tile.html#a7fc1cd0599b7c9e67c065c663eff49fd" title="if the tile solid or not? (for collision); by default, a tile IS NOT SOLID" alt="" coords="567,122,755,163"/>
+</map>

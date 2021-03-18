@@ -1,0 +1,12 @@
+<map id="PAOO_TrueHero.Entities.MovingEntities.Player.getPlayerInventoryAndStats" name="PAOO_TrueHero.Entities.MovingEntities.Player.getPlayerInventoryAndStats">
+<area shape="rect" id="node1" title=" " alt="" coords="280,259,497,315"/>
+<area shape="rect" id="node2" href="$class_p_a_o_o___true_hero_1_1_states_1_1_combat_state.html#a12c363341a05b81af9b2dbc5adf70cc0" title=" " alt="" coords="13,5,224,47"/>
+<area shape="rect" id="node3" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_static_entities_1_1_mana_potion.html#a50f1738e2fee5062b99fd334f4337c07" title="all entities die, and do something. Potions die when taken. Player and Enemies die in combat." alt="" coords="16,71,221,112"/>
+<area shape="rect" id="node4" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_static_entities_1_1_big_health_potion.html#adec077cdb3726eac3eb37558a9b02774" title="all entities die, and do something. Potions die when taken. Player and Enemies die in combat." alt="" coords="9,136,229,177"/>
+<area shape="rect" id="node5" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_static_entities_1_1_big_mana_potion.html#afebef126d5c2c0efd102c582b8212679" title="all entities die, and do something. Potions die when taken. Player and Enemies die in combat." alt="" coords="11,201,226,243"/>
+<area shape="rect" id="node6" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_static_entities_1_1_max_mana_potion.html#ac56989ed59514f9d36c6cab318829f76" title="all entities die, and do something. Potions die when taken. Player and Enemies die in combat." alt="" coords="8,267,229,308"/>
+<area shape="rect" id="node7" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_static_entities_1_1_max_health_potion.html#abedcf3e492edba1401d8458d9858f8d4" title="all entities die, and do something. Potions die when taken. Player and Enemies die in combat." alt="" coords="5,332,232,373"/>
+<area shape="rect" id="node8" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_static_entities_1_1_health_potion.html#a73c64cb80525e15476b783c02074d2bb" title="all entities die, and do something. Potions die when taken. Player and Enemies die in combat." alt="" coords="16,397,221,439"/>
+<area shape="rect" id="node9" href="$class_p_a_o_o___true_hero_1_1_inventory_and_stat_page_1_1_item.html#ae4eac2141fd384e463cfa3ae9fc55486" title=" " alt="" coords="20,463,217,504"/>
+<area shape="rect" id="node10" href="$class_p_a_o_o___true_hero_1_1_states_1_1_combat_state.html#a83bcfa30324ed0adccecb8bf98afedb4" title=" " alt="" coords="13,528,224,569"/>
+</map>

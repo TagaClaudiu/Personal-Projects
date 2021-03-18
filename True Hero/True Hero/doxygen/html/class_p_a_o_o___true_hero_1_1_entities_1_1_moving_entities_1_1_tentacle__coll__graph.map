@@ -1,0 +1,8 @@
+<map id="PAOO_TrueHero.Entities.MovingEntities.Tentacle" name="PAOO_TrueHero.Entities.MovingEntities.Tentacle">
+<area shape="rect" id="node1" title=" " alt="" coords="1120,41,1331,83"/>
+<area shape="rect" id="node2" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_enemy.html" title=" " alt="" coords="860,41,1071,83"/>
+<area shape="rect" id="node3" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_moving_entity.html" title="Everything that is &quot;Alive&quot;, including player. Has collisions." alt="" coords="538,5,749,47"/>
+<area shape="rect" id="node4" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_entity.html" title="The essence of all things. Items, you, monsters." alt="" coords="267,13,472,39"/>
+<area shape="rect" id="node5" href="$class_p_a_o_o___true_hero_1_1_handler.html" title="Helper class. 1 game, 1 world to EVERYONE." alt="" coords="5,13,172,39"/>
+<area shape="rect" id="node6" href="$class_p_a_o_o___true_hero_1_1_graphics_1_1_animations.html" title="Basically an array that keeps cycling through members." alt="" coords="521,71,765,98"/>
+</map>

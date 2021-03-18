@@ -1,0 +1,10 @@
+<map id="PAOO_TrueHero.Entities.Entity.getMax_health" name="PAOO_TrueHero.Entities.Entity.getMax_health">
+<area shape="rect" id="node1" title=" " alt="" coords="1339,64,1565,105"/>
+<area shape="rect" id="node2" href="$class_p_a_o_o___true_hero_1_1_inventory_and_stat_page_1_1_inventory_and_stats.html#ad7d1bba2148ad70e541515217637c492" title=" " alt="" coords="1072,64,1291,105"/>
+<area shape="rect" id="node3" href="$class_p_a_o_o___true_hero_1_1_states_1_1_combat_state.html#a12c363341a05b81af9b2dbc5adf70cc0" title=" " alt="" coords="797,5,1008,47"/>
+<area shape="rect" id="node8" href="$class_p_a_o_o___true_hero_1_1_states_1_1_combat_state.html#a83bcfa30324ed0adccecb8bf98afedb4" title=" " alt="" coords="1076,129,1287,171"/>
+<area shape="rect" id="node4" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_player.html#a2178c0735e367ad5c80c281fd71a64c8" title=" " alt="" coords="781,71,1024,112"/>
+<area shape="rect" id="node5" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_entity_manager.html#abfa77e54a46515213bf8b1bca0ca75eb" title=" " alt="" coords="528,71,733,112"/>
+<area shape="rect" id="node6" href="$class_p_a_o_o___true_hero_1_1_maps_1_1_world.html#a397721bebf52b093ae7090a608bec66d" title=" " alt="" coords="253,78,480,105"/>
+<area shape="rect" id="node7" href="$class_p_a_o_o___true_hero_1_1_states_1_1_game_state.html#a3431099f8e1e4f0eda30dbcfc6230d3e" title=" " alt="" coords="5,71,205,112"/>
+</map>

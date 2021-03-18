@@ -1,0 +1,15 @@
+<map id="PAOO_TrueHero.Entities.MovingEntities.MovingEntity.moveY" name="PAOO_TrueHero.Entities.MovingEntities.MovingEntity.moveY">
+<area shape="rect" id="node1" title=" " alt="" coords="5,126,216,167"/>
+<area shape="rect" id="node2" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_moving_entity.html#a02ff3539d4d01bafb419360074e55fb7" title="Helpful function for collision check." alt="" coords="264,53,496,109"/>
+<area shape="rect" id="node3" href="$class_p_a_o_o___true_hero_1_1_maps_1_1_world.html#af9553720817e462bc7e923805000ae9c" title=" " alt="" coords="545,5,779,32"/>
+<area shape="rect" id="node4" href="$class_p_a_o_o___true_hero_1_1_handler.html#a6c64907e67e75dc91d9bf820286da33b" title=" " alt="" coords="567,123,757,165"/>
+<area shape="rect" id="node6" href="$class_p_a_o_o___true_hero_1_1_tiles_1_1_tile.html#a5d3753862c2392e54768708d6c13c385" title=" " alt="" coords="277,184,483,211"/>
+<area shape="rect" id="node7" href="$class_p_a_o_o___true_hero_1_1_maps_1_1_world.html#a573db318388b8c4a977b12d81a3a7d08" title="helpful for changing maps. deletes all entities from current map except player" alt="" coords="269,319,491,361"/>
+<area shape="rect" id="node5" href="$class_p_a_o_o___true_hero_1_1_tiles_1_1_tile.html#a7fc1cd0599b7c9e67c065c663eff49fd" title="if the tile solid or not? (for collision); by default, a tile IS NOT SOLID" alt="" coords="568,58,756,99"/>
+<area shape="rect" id="node8" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_entity_manager.html#a47bcfd9a2386a611b2c20a10730240d6" title=" " alt="" coords="559,189,765,230"/>
+<area shape="rect" id="node9" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_entity_manager.html#a16615f3fc063c07aae860ad879725a33" title=" " alt="" coords="559,254,765,295"/>
+<area shape="rect" id="node10" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_player.html#adacd0c3202dcb75c4de6d87c9d2154e6" title=" " alt="" coords="557,319,767,361"/>
+<area shape="rect" id="node11" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_entity.html#a757e2b4e4dad4b7e539165a64cf4a458" title=" " alt="" coords="549,385,775,426"/>
+<area shape="rect" id="node12" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_entity.html#a155e47ce543386c6b62e00e40914b685" title=" " alt="" coords="545,451,779,477"/>
+<area shape="rect" id="node13" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_entity.html#a0d52ac67dd38ad0258de210d3f1fec49" title=" " alt="" coords="544,501,780,528"/>
+</map>

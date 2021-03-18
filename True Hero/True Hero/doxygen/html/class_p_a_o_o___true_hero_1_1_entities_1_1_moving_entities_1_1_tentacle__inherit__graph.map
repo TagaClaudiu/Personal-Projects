@@ -1,0 +1,6 @@
+<map id="PAOO_TrueHero.Entities.MovingEntities.Tentacle" name="PAOO_TrueHero.Entities.MovingEntities.Tentacle">
+<area shape="rect" id="node1" title=" " alt="" coords="5,259,216,300"/>
+<area shape="rect" id="node2" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_enemy.html" title=" " alt="" coords="5,169,216,211"/>
+<area shape="rect" id="node3" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_moving_entities_1_1_moving_entity.html" title="Everything that is &quot;Alive&quot;, including player. Has collisions." alt="" coords="5,80,216,121"/>
+<area shape="rect" id="node4" href="$class_p_a_o_o___true_hero_1_1_entities_1_1_entity.html" title="The essence of all things. Items, you, monsters." alt="" coords="8,5,213,32"/>
+</map>
