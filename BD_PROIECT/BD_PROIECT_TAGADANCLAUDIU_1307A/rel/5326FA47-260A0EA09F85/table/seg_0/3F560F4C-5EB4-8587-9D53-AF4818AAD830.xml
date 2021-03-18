@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3F560F4C-5EB4-8587-9D53-AF4818AAD830" name="Situatie_Concedii">
+<createdBy>claud</createdBy>
+<createdTime>2020-12-16 14:44:34 UTC</createdTime>
+<generatorID>90FB5B2B-10B1-BD49-BF3A-672C7EAED456</generatorID>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="zile_concediu_ramase" id="910E9381-4549-1A8F-FA55-CB41E7FFE775">
+<createdBy>claud</createdBy>
+<createdTime>2020-12-16 14:44:34 UTC</createdTime>
+<generatorID>A694C40F-3A1D-9391-C71F-57ECB77CC81F</generatorID>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<constraintName>concedii_zile_chk</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>1000</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="zile_concediu_medical_ramase" id="AE89A4AF-BC01-296C-118E-37FFB66222F0">
+<createdBy>claud</createdBy>
+<createdTime>2020-12-16 14:44:34 UTC</createdTime>
+<generatorID>18B34828-0664-A3C6-7392-0D7899A31244</generatorID>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<constraintName>concedii_zile_medical_chk</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>1000</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="zile_concediu_fara_plata" id="9C50B6AC-020F-26E0-1C82-F56D99FFB5EE">
+<createdBy>claud</createdBy>
+<createdTime>2020-12-16 14:44:34 UTC</createdTime>
+<generatorID>845D39D9-AB02-D6A0-5B82-A2EF2EC74715</generatorID>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<constraintName>concedii_zile_fara_chk</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>50</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="Angajati_ID_angajat" id="10859858-1F13-DEE4-ADDF-1FFDB9D08C06">
+<createdBy>claud</createdBy>
+<createdTime>2020-12-16 14:44:34 UTC</createdTime>
+<generatorID>EF5F715F-83C0-852B-FC32-3D2E71D3763A</generatorID>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D69B5E2F-3C5D-F8BC-636D-BAFD07FDD9C0" referredColumn="C6B20F7C-C1F4-296B-38D8-568D7B723F57"/>
+</associations>
+</Column>
+<Column name="Angajati_id_job" id="7BEC450A-3831-00C4-39ED-64CFCBE5D93C">
+<createdBy>claud</createdBy>
+<createdTime>2020-12-16 14:44:34 UTC</createdTime>
+<generatorID>9A6183B6-AE1D-FE98-443C-A18745A4BD40</generatorID>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D69B5E2F-3C5D-F8BC-636D-BAFD07FDD9C0" referredColumn="AB771B4A-DBBA-DE6C-4B5C-4626E53E8964"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5B2FDBC0-0A57-7A96-5EB4-BB3C3B12325B" name="Situatie_Concedii__IDX">
+<createdBy>claud</createdBy>
+<createdTime>2020-12-16 14:44:34 UTC</createdTime>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>289F9A08-086E-821B-0DBB-AF52FC71D505</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="10859858-1F13-DEE4-ADDF-1FFDB9D08C06"/>
+<colUsage columnID="7BEC450A-3831-00C4-39ED-64CFCBE5D93C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="055E8AD5-1B35-3891-E1B1-4C97F36E544D" name="Concedii_Angajati_FK">
+<createdBy>claud</createdBy>
+<createdTime>2020-12-16 14:44:34 UTC</createdTime>
+<generatorID>289F9A08-086E-821B-0DBB-AF52FC71D505</generatorID>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10859858-1F13-DEE4-ADDF-1FFDB9D08C06"/>
+<colUsage columnID="7BEC450A-3831-00C4-39ED-64CFCBE5D93C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

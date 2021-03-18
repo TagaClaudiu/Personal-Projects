@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="78C1118D-5675-1B37-99C1-FC5184CEAA5B" name="Angajati">
+<createdBy>claud</createdBy>
+<createdTime>2020-11-05 13:03:52 UTC</createdTime>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<engineerTo>
+<item key="5326FA47-03BD-25D7-D809-260A0EA09F85" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_angajat" id="6FA8F065-9CC3-2103-582F-E10B2389EDF3">
+<createdBy>claud</createdBy>
+<createdTime>2020-11-05 13:27:54 UTC</createdTime>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<engineerTo>
+<item key="5326FA47-03BD-25D7-D809-260A0EA09F85" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nume_angajat" id="BD73CAA2-33EC-17B8-3BDD-F57DA450B24E">
+<createdBy>claud</createdBy>
+<createdTime>2020-11-05 13:29:03 UTC</createdTime>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<engineerTo>
+<item key="5326FA47-03BD-25D7-D809-260A0EA09F85" value="true"/>
+</engineerTo>
+<constraintName>angajati_nume_angajat_chk</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="regexp_like(nume_angajat,&apos;^[a-zA-Z .&apos;&apos;-]+$&apos;)"/>
+</checkConstraint>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_job" id="F2ED94A4-443C-CFAE-5F4A-6B329C8E790E">
+<createdBy>claud</createdBy>
+<createdTime>2020-11-06 11:20:25 UTC</createdTime>
+<generatorID>D410D6C1-42D7-FA16-9A97-FB565ABB46FA</generatorID>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<engineerTo>
+<item key="5326FA47-03BD-25D7-D809-260A0EA09F85" value="true"/>
+</engineerTo>
+<referedAttribute>1324D5A1-B257-A7D7-A782-EAC8931C2966</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_echipa" id="21662ACD-D0B4-3F7D-2058-BA90DBB190CC">
+<createdBy>claud</createdBy>
+<createdTime>2020-11-06 11:20:46 UTC</createdTime>
+<generatorID>8541F959-02AF-19F9-6F2B-B74CFC119991</generatorID>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<engineerTo>
+<item key="5326FA47-03BD-25D7-D809-260A0EA09F85" value="true"/>
+</engineerTo>
+<referedAttribute>F17EB5D9-D6E1-983D-D94D-563547F2A717</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="salariu" id="4FEF129A-492A-FE2D-51DC-D0F43E659A94">
+<createdBy>claud</createdBy>
+<createdTime>2020-12-14 22:03:05 UTC</createdTime>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<engineerTo>
+<item key="5326FA47-03BD-25D7-D809-260A0EA09F85" value="true"/>
+</engineerTo>
+<constraintName>angajati_salariu_chk</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="salariu&gt;=2300"/>
+</checkConstraint>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="099EBC79-6214-EC88-5402-099CC916C716" name="Angajati PK">
+<createdBy>claud</createdBy>
+<createdTime>2020-11-05 13:28:57 UTC</createdTime>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<engineerTo>
+<item key="5326FA47-03BD-25D7-D809-260A0EA09F85" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6FA8F065-9CC3-2103-582F-E10B2389EDF3</attributeRef>
+<attributeRef>F2ED94A4-443C-CFAE-5F4A-6B329C8E790E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

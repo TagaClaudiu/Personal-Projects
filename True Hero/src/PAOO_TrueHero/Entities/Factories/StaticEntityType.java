@@ -1,0 +1,5 @@
+package PAOO_TrueHero.Entities.Factories;
+
+public enum StaticEntityType {
+   HEALTHPOTION, BIGHEALTHPOTION, MAXHEALTHPOTION, MANAPOTION, BIGMANAPOTION, MAXMANAPOTION
+}

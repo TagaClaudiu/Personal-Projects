@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CA5D70A9-76B7-2251-B553-A38F02692D44" name="Magazine">
+<createdBy>claud</createdBy>
+<createdTime>2020-12-16 14:44:34 UTC</createdTime>
+<generatorID>D4441CE6-612E-0CFD-2326-9142ECC5AE2C</generatorID>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_magazin" id="1AE1BA34-8D96-538C-DADD-B2C3C50AA125">
+<createdBy>claud</createdBy>
+<createdTime>2020-12-16 14:44:34 UTC</createdTime>
+<generatorID>9F436B82-4BCE-42F8-7936-EDCF577520F3</generatorID>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>magazine_id_magazin_seq</autoIncrementSequenceName>
+<autoIncrementTriggerName>magazine_id_magazin_trg</autoIncrementTriggerName>
+</Column>
+<Column name="Orase_ID_oras" id="60CAD433-FE58-D6C5-C103-13977B5897BD">
+<createdBy>claud</createdBy>
+<createdTime>2020-12-16 14:44:34 UTC</createdTime>
+<generatorID>64D1B7B8-8B00-C6D7-EF86-E4BE2381BD53</generatorID>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="97D64627-F4EF-F1CC-55E8-00C9470A88C9" referredColumn="1D014C54-BF64-C5BC-656A-DC3A92A86B17"/>
+</associations>
+</Column>
+<Column name="denumire_magazin" id="4DE411CA-AA45-59FC-9290-F1A67C366A07">
+<createdBy>claud</createdBy>
+<createdTime>2020-12-16 14:44:34 UTC</createdTime>
+<generatorID>6FB2AD2F-E3DD-E295-EB6C-C4E0386FB54C</generatorID>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<constraintName>magazine_denumire_chk</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="regexp_like(denumire_magazin,&apos;^[a-zA-Z .&apos;&apos;-]+$&apos;)"/>
+</checkConstraint>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CD9C24F9-F5EA-5938-D544-9A5974F7DE98" name="Magazine_PK">
+<createdBy>claud</createdBy>
+<createdTime>2020-12-16 14:44:34 UTC</createdTime>
+<generatorID>AB1772AC-C7C5-7EAE-033D-264BCDFE7DDA</generatorID>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1AE1BA34-8D96-538C-DADD-B2C3C50AA125"/>
+<colUsage columnID="60CAD433-FE58-D6C5-C103-13977B5897BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A01B0A06-67B0-C0A5-3D06-9E6E5318AD29" name="Magazine_Orase_FK">
+<createdBy>claud</createdBy>
+<createdTime>2020-12-16 14:44:34 UTC</createdTime>
+<generatorID>5AD2548E-F34A-DC76-90BD-A50309E768D8</generatorID>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60CAD433-FE58-D6C5-C103-13977B5897BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="angajati_concedii" directorySegmentName="seg_0" id="289F9A08-086E-821B-0DBB-AF52FC71D505">
+<createdBy>claud</createdBy>
+<createdTime>2020-11-05 14:49:39 UTC</createdTime>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<engineerTo>
+<item key="B71C7078-DEC5-4047-FA6A-3F8546A3286F" value="true"/>
+</engineerTo>
+<sourcePk>099EBC79-6214-EC88-5402-099CC916C716</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>78C1118D-5675-1B37-99C1-FC5184CEAA5B</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>90FB5B2B-10B1-BD49-BF3A-672C7EAED456</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

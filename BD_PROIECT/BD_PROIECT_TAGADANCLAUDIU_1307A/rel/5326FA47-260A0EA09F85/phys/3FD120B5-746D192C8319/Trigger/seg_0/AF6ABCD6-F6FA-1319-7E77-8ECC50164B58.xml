@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="TRG_reparatii_incepere_BRIU" directorySegmentName="seg_0" id="AF6ABCD6-F6FA-1319-7E77-8ECC50164B58">
+<createdBy>claud</createdBy>
+<createdTime>2020-12-16 15:00:29 UTC</createdTime>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<actions>INSERT, UPDATE</actions>
+<body><![CDATA[BEGIN
+ IF ( :new.data_incepere_reparatii > SYSDATE )
+  THEN
+   RAISE_APPLICATION_ERROR ( -20001,
+   		'Data invalida: ' || TO_CHAR ( :new.data_incepere_reparatii, 'DD.MM.YYYY' ) || ' Data inceperii reparatiilor trebuie sa fie mai mica decat data curenta' );
+   END IF;
+END;]]></body>
+<triggerTime>BEFORE</triggerTime>
+<table>440D5016-7689-DE05-B54C-60758488CC2F</table>
+</TriggerOraclev10g>

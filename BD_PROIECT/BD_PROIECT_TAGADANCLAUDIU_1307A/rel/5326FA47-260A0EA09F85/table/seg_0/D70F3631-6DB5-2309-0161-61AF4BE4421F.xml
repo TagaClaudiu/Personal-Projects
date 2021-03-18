@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D70F3631-6DB5-2309-0161-61AF4BE4421F" name="Echipe">
+<createdBy>claud</createdBy>
+<createdTime>2020-12-16 14:44:34 UTC</createdTime>
+<generatorID>69705190-08C4-B4FD-7CE2-5AF4FE1416A5</generatorID>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_echipa" id="37935145-E828-6FD0-AD95-09C56CA36093">
+<createdBy>claud</createdBy>
+<createdTime>2020-12-16 14:44:34 UTC</createdTime>
+<generatorID>F17EB5D9-D6E1-983D-D94D-563547F2A717</generatorID>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>echipe_id_echipa_seq</autoIncrementSequenceName>
+<autoIncrementTriggerName>echipe_id_echipa_seq</autoIncrementTriggerName>
+</Column>
+<Column name="ID_manager" id="1C993F21-07CE-5AE8-851D-4D6785044AFC">
+<createdBy>claud</createdBy>
+<createdTime>2020-12-16 14:44:34 UTC</createdTime>
+<generatorID>1E06E7AC-927C-293A-3883-A23A3C2D6B08</generatorID>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nume_manager" id="FF94CA0E-7D8D-F724-4418-66C8B4D66BBD">
+<createdBy>claud</createdBy>
+<createdTime>2020-12-16 14:44:34 UTC</createdTime>
+<generatorID>34F685D7-0F98-F528-B256-CC0CCD9EA156</generatorID>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<constraintName>echipe_nume_manager_chk</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="regexp_like(nume_manager,&apos;^[a-zA-Z .&apos;&apos;-]+$&apos;)"/>
+</checkConstraint>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="31AED722-F7F5-E7D1-F72A-2C49691CB622" name="Echipe_PK">
+<createdBy>claud</createdBy>
+<createdTime>2020-12-16 14:44:34 UTC</createdTime>
+<generatorID>CE44205C-DDFA-10DE-309B-CDF0E7752F30</generatorID>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37935145-E828-6FD0-AD95-09C56CA36093"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,75 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char *argv[]);"
+SourceLocation="c:\Users\Leonard\Documents\National Instruments\CVI\APD-P\WaveFilter.c:35:5"
+
+[Mediere]
+Class="Function"
+Prototype="void Mediere(int n);"
+SourceLocation="c:\Users\Leonard\Documents\National Instruments\CVI\APD-P\WaveFilter.c:50:6"
+
+[FiltrareAlpha]
+Class="Function"
+Prototype="void FiltrareAlpha(double alpha);"
+SourceLocation="c:\Users\Leonard\Documents\National Instruments\CVI\APD-P\WaveFilter.c:71:6"
+
+[zeroCrossing]
+Class="Function"
+Prototype="int zeroCrossing();"
+SourceLocation="c:\Users\Leonard\Documents\National Instruments\CVI\APD-P\WaveFilter.c:83:5"
+
+[OnMainPanel]
+Class="Function"
+Prototype="int OnMainPanel(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\Leonard\Documents\National Instruments\CVI\APD-P\WaveFilter.c:94:17"
+
+[OnLoadButtonCB]
+Class="Function"
+Prototype="int OnLoadButtonCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\Leonard\Documents\National Instruments\CVI\APD-P\WaveFilter.c:112:17"
+
+[OnGraphRaw]
+Class="Function"
+Prototype="int OnGraphRaw(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\Leonard\Documents\National Instruments\CVI\APD-P\WaveFilter.c:169:17"
+
+[OnFilterSelect]
+Class="Function"
+Prototype="int OnFilterSelect(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\Leonard\Documents\National Instruments\CVI\APD-P\WaveFilter.c:181:17"
+
+[OnApplyCB]
+Class="Function"
+Prototype="int OnApplyCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\Leonard\Documents\National Instruments\CVI\APD-P\WaveFilter.c:204:17"
+
+[OnNextPrevCB]
+Class="Function"
+Prototype="int OnNextPrevCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\Leonard\Documents\National Instruments\CVI\APD-P\WaveFilter.c:258:17"
+
+[OnNumSecunde]
+Class="Function"
+Prototype="int OnNumSecunde(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\Leonard\Documents\National Instruments\CVI\APD-P\WaveFilter.c:291:17"
+
+[OnSwitchPanelCB]
+Class="Function"
+Prototype="int OnSwitchPanelCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\Leonard\Documents\National Instruments\CVI\APD-P\WaveFilter.c:314:17"
+
+[OnFrequencyPanel]
+Class="Function"
+Prototype="int OnFrequencyPanel(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\Leonard\Documents\National Instruments\CVI\APD-P\WaveFilter.c:337:17"
+
+[OnGetSpectru]
+Class="Function"
+Prototype="int OnGetSpectru(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\Leonard\Documents\National Instruments\CVI\APD-P\WaveFilter.c:355:17"
+
+[SignalSpectrum]
+Class="Function"
+Prototype="int SignalSpectrum(double inputArray[], int numberOfElements, double samplingFrequency, double xOutputArray[], double yOutputArray[]);"
+SourceLocation="c:\Users\Leonard\Documents\National Instruments\CVI\APD-P\WaveFilter.c:516:5"
+

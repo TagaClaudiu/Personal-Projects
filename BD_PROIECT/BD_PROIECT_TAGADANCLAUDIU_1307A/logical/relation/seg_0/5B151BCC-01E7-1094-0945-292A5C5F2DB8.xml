@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="echipe_magazine_FK" directorySegmentName="seg_0" id="5B151BCC-01E7-1094-0945-292A5C5F2DB8">
+<createdBy>claud</createdBy>
+<createdTime>2020-11-06 11:21:31 UTC</createdTime>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<engineerTo>
+<item key="974391A1-AAD9-674B-D0C0-A4BBBE7CA539" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>69705190-08C4-B4FD-7CE2-5AF4FE1416A5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D4441CE6-612E-0CFD-2326-9142ECC5AE2C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="nr_angajati_in_magazin" id="CA8E067D-4810-4ECD-FF65-A1B6D8E25ACE">
+<createdBy>claud</createdBy>
+<createdTime>2020-11-06 11:44:16 UTC</createdTime>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<engineerTo>
+<item key="974391A1-AAD9-674B-D0C0-A4BBBE7CA539" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

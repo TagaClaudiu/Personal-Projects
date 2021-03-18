@@ -1,0 +1,189 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="62878877-2EA6-E524-BD47-88E13E0EAB84" name="Detalii_Angajati">
+<createdBy>claud</createdBy>
+<createdTime>2020-11-05 13:04:33 UTC</createdTime>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<engineerTo>
+<item key="5326FA47-03BD-25D7-D809-260A0EA09F85" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="serie_act_identitate" id="B84F54BA-9057-E23F-EEC1-7F6F871C9299">
+<createdBy>claud</createdBy>
+<createdTime>2020-11-05 14:25:37 UTC</createdTime>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<engineerTo>
+<item key="5326FA47-03BD-25D7-D809-260A0EA09F85" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tip_act_identitate" id="F109E0D1-A465-31E7-DF70-A867ED9F57A7">
+<createdBy>claud</createdBy>
+<createdTime>2020-11-05 14:26:46 UTC</createdTime>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<engineerTo>
+<item key="5326FA47-03BD-25D7-D809-260A0EA09F85" value="true"/>
+</engineerTo>
+<constraintName>detalii_tip_act_identitate_chk</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<listOfValues>
+<valueDef value="buletin" description=""/>
+<valueDef value="pasaport" description=""/>
+</listOfValues>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_nastere" id="BFAF55AB-FFC2-97A9-4E8C-B9E76B0514BB">
+<createdBy>claud</createdBy>
+<createdTime>2020-11-05 14:27:12 UTC</createdTime>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<engineerTo>
+<item key="5326FA47-03BD-25D7-D809-260A0EA09F85" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_telefon" id="8A3B2D9D-B04D-94DB-5BB9-6278B2457141">
+<createdBy>claud</createdBy>
+<createdTime>2020-11-05 14:27:33 UTC</createdTime>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<engineerTo>
+<item key="5326FA47-03BD-25D7-D809-260A0EA09F85" value="true"/>
+</engineerTo>
+<constraintName>detalii_nr_telefon_chk</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="length(nr_telefon)&gt;=10"/>
+</checkConstraint>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="adresa_domiciliu" id="F63082F4-6BE0-F8B3-2E6D-6CAFA25770AF">
+<createdBy>claud</createdBy>
+<createdTime>2020-11-05 14:28:14 UTC</createdTime>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<engineerTo>
+<item key="5326FA47-03BD-25D7-D809-260A0EA09F85" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nationalitate" id="0CC80C29-319A-5AE8-C319-E49A0C05B97E">
+<createdBy>claud</createdBy>
+<createdTime>2020-11-05 14:28:56 UTC</createdTime>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<engineerTo>
+<item key="5326FA47-03BD-25D7-D809-260A0EA09F85" value="true"/>
+</engineerTo>
+<constraintName>detalii_nationalitate_chk</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<listOfValues>
+<valueDef value="BUL" description=""/>
+<valueDef value="ENG" description=""/>
+<valueDef value="FRA" description=""/>
+<valueDef value="GER" description=""/>
+<valueDef value="ITA" description=""/>
+<valueDef value="MOL" description=""/>
+<valueDef value="POL" description=""/>
+<valueDef value="POR" description=""/>
+<valueDef value="RO" description=""/>
+<valueDef value="RUS" description=""/>
+<valueDef value="SPA" description=""/>
+<valueDef value="UNG" description=""/>
+</listOfValues>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_angajare" id="5A5353E4-03C3-DF43-92FB-2BFA22EB8DA5">
+<createdBy>claud</createdBy>
+<createdTime>2020-11-05 14:29:36 UTC</createdTime>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<engineerTo>
+<item key="5326FA47-03BD-25D7-D809-260A0EA09F85" value="true"/>
+</engineerTo>
+<constraintName>detalii_data_angajare_chk</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="data_angajare &gt; data_nastere"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tip_contract_munca" id="807178B5-A214-F97B-1215-86FCCBCE3B0A">
+<createdBy>claud</createdBy>
+<createdTime>2020-11-06 11:19:14 UTC</createdTime>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<engineerTo>
+<item key="5326FA47-03BD-25D7-D809-260A0EA09F85" value="true"/>
+</engineerTo>
+<constraintName>detalii_tip_contract_munca_chk</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<listOfValues>
+<valueDef value="full-time" description=""/>
+<valueDef value="part-time" description=""/>
+</listOfValues>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_angajat" id="1B67BC90-B998-B373-F432-3CD377C3E651">
+<createdBy>claud</createdBy>
+<createdTime>2020-12-15 17:37:06 UTC</createdTime>
+<generatorID>B3E364F9-8E26-C91C-2071-9E938C2ED9B7</generatorID>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<engineerTo>
+<item key="5326FA47-03BD-25D7-D809-260A0EA09F85" value="true"/>
+</engineerTo>
+<referedAttribute>6FA8F065-9CC3-2103-582F-E10B2389EDF3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_job" id="20B3F6F3-98BC-100B-DAFE-DC687FA57F10">
+<createdBy>claud</createdBy>
+<createdTime>2020-12-15 17:37:06 UTC</createdTime>
+<generatorID>B3E364F9-8E26-C91C-2071-9E938C2ED9B7</generatorID>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<engineerTo>
+<item key="5326FA47-03BD-25D7-D809-260A0EA09F85" value="true"/>
+</engineerTo>
+<referedAttribute>F2ED94A4-443C-CFAE-5F4A-6B329C8E790E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

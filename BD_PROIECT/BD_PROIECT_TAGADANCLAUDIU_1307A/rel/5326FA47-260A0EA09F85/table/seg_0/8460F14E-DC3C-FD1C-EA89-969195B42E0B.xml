@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8460F14E-DC3C-FD1C-EA89-969195B42E0B" name="Orase">
+<createdBy>claud</createdBy>
+<createdTime>2020-12-16 14:44:34 UTC</createdTime>
+<generatorID>92871A47-E964-38B4-F53F-2BB48D2A1E86</generatorID>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_oras" id="1D014C54-BF64-C5BC-656A-DC3A92A86B17">
+<createdBy>claud</createdBy>
+<createdTime>2020-12-16 14:44:34 UTC</createdTime>
+<generatorID>F86572EA-099C-2133-A915-83A21FFA47F4</generatorID>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>orase_id_oras_seq</autoIncrementSequenceName>
+<autoIncrementTriggerName>orase_id_oras_trg</autoIncrementTriggerName>
+</Column>
+<Column name="denumire_oras" id="CD46EAE3-21B5-EA9F-9D84-7ED87A99C07D">
+<createdBy>claud</createdBy>
+<createdTime>2020-12-16 14:44:34 UTC</createdTime>
+<generatorID>1B787589-D37A-FAB7-4EB2-1FB04A861182</generatorID>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<constraintName>orase_denumire</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="regexp_like(denumire_oras,&apos;^[a-zA-Z .&apos;&apos;-]+$&apos;)"/>
+</checkConstraint>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="39ECDBCA-C500-1A51-18F9-B43C4D067881" name="Orase_PK">
+<createdBy>claud</createdBy>
+<createdTime>2020-12-16 14:44:34 UTC</createdTime>
+<generatorID>71F24093-C276-7084-936B-3B4B217266BB</generatorID>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D014C54-BF64-C5BC-656A-DC3A92A86B17"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FA91A6AE-7259-5C0C-D43C-E786CE59C06D" name="Joburi">
+<createdBy>claud</createdBy>
+<createdTime>2020-11-05 13:04:12 UTC</createdTime>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<engineerTo>
+<item key="5326FA47-03BD-25D7-D809-260A0EA09F85" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_job" id="1324D5A1-B257-A7D7-A782-EAC8931C2966">
+<createdBy>claud</createdBy>
+<createdTime>2020-11-05 14:30:41 UTC</createdTime>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<engineerTo>
+<item key="5326FA47-03BD-25D7-D809-260A0EA09F85" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="denumire_job" id="AA33201F-ED63-0065-94FA-EAA1B0D3A1CC">
+<createdBy>claud</createdBy>
+<createdTime>2020-11-05 14:30:55 UTC</createdTime>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<engineerTo>
+<item key="5326FA47-03BD-25D7-D809-260A0EA09F85" value="true"/>
+</engineerTo>
+<constraintName>joburi_denumire_job</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="regexp_like(denumire_job,&apos;^[a-zA-Z .&apos;&apos;-]+$&apos;)"/>
+</checkConstraint>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="salariu_baza" id="B051EB50-79F5-7DC7-D50C-C740676B1646">
+<createdBy>claud</createdBy>
+<createdTime>2020-11-05 14:36:02 UTC</createdTime>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<engineerTo>
+<item key="5326FA47-03BD-25D7-D809-260A0EA09F85" value="true"/>
+</engineerTo>
+<constraintName>joburi_salariu_baza_chk</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="salariu_baza&gt;=2300"/>
+</checkConstraint>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1ED2850B-DABD-4E24-ECE6-0657FF644857" name="Joburi PK">
+<createdBy>claud</createdBy>
+<createdTime>2020-11-05 14:40:02 UTC</createdTime>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<engineerTo>
+<item key="5326FA47-03BD-25D7-D809-260A0EA09F85" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1324D5A1-B257-A7D7-A782-EAC8931C2966</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

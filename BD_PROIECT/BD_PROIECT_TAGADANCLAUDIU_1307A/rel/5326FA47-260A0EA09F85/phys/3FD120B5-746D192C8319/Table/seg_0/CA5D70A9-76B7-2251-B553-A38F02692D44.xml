@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="Magazine" directorySegmentName="seg_0" id="CA5D70A9-76B7-2251-B553-A38F02692D44">
+<createdBy>claud</createdBy>
+<createdTime>2020-12-16 14:52:18 UTC</createdTime>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID_magazin" id="1AE1BA34-8D96-538C-DADD-B2C3C50AA125">
+<createdBy>claud</createdBy>
+<createdTime>2020-12-16 14:52:18 UTC</createdTime>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="denumire_magazin" id="4DE411CA-AA45-59FC-9290-F1A67C366A07">
+<createdBy>claud</createdBy>
+<createdTime>2020-12-16 14:52:18 UTC</createdTime>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Orase_ID_oras" id="60CAD433-FE58-D6C5-C103-13977B5897BD">
+<createdBy>claud</createdBy>
+<createdTime>2020-12-16 14:52:18 UTC</createdTime>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Magazine_Orase_FK" id="A01B0A06-67B0-C0A5-3D06-9E6E5318AD29">
+<createdBy>claud</createdBy>
+<createdTime>2020-12-16 14:52:18 UTC</createdTime>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Magazine_PK" id="CD9C24F9-F5EA-5938-D544-9A5974F7DE98">
+<createdBy>claud</createdBy>
+<createdTime>2020-12-16 14:52:18 UTC</createdTime>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

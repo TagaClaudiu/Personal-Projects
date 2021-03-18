@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="joburi_angajati_FK" directorySegmentName="seg_0" id="D410D6C1-42D7-FA16-9A97-FB565ABB46FA">
+<createdBy>claud</createdBy>
+<createdTime>2020-11-06 11:20:25 UTC</createdTime>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<engineerTo>
+<item key="B71C7078-DEC5-4047-FA6A-3F8546A3286F" value="true"/>
+</engineerTo>
+<sourcePk>1ED2850B-DABD-4E24-ECE6-0657FF644857</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FA91A6AE-7259-5C0C-D43C-E786CE59C06D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>78C1118D-5675-1B37-99C1-FC5184CEAA5B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

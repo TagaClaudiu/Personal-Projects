@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="201E543C-E0C4-5DA0-28CC-3CA346E6554C" name="Angajati">
+<createdBy>claud</createdBy>
+<createdTime>2020-12-16 14:44:34 UTC</createdTime>
+<generatorID>78C1118D-5675-1B37-99C1-FC5184CEAA5B</generatorID>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_angajat" id="C6B20F7C-C1F4-296B-38D8-568D7B723F57">
+<createdBy>claud</createdBy>
+<createdTime>2020-12-16 14:44:34 UTC</createdTime>
+<generatorID>6FA8F065-9CC3-2103-582F-E10B2389EDF3</generatorID>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>angajati_id_angajati_seq</autoIncrementSequenceName>
+<autoIncrementTriggerName>angajati_id_angajati_trg</autoIncrementTriggerName>
+</Column>
+<Column name="nume_angajat" id="516DA7A2-679A-04E1-FCA9-B7952221A75A">
+<createdBy>claud</createdBy>
+<createdTime>2020-12-16 14:44:34 UTC</createdTime>
+<generatorID>BD73CAA2-33EC-17B8-3BDD-F57DA450B24E</generatorID>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<constraintName>angajati_nume_angajat_chk</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="regexp_like(nume_angajat,&apos;^[a-zA-Z .&apos;&apos;-]+$&apos;)"/>
+</checkConstraint>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Joburi_id_job" id="AB771B4A-DBBA-DE6C-4B5C-4626E53E8964">
+<createdBy>claud</createdBy>
+<createdTime>2020-12-16 14:44:34 UTC</createdTime>
+<generatorID>F2ED94A4-443C-CFAE-5F4A-6B329C8E790E</generatorID>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="94D0D6F3-7F03-7C98-CAD0-52D7533529CD" referredColumn="634528F3-8608-BB82-75DB-D5D62260E00F"/>
+</associations>
+</Column>
+<Column name="Echipe_ID_echipa" id="BC4F6F4C-6888-2271-F880-28A36C7292BD">
+<createdBy>claud</createdBy>
+<createdTime>2020-12-16 14:44:34 UTC</createdTime>
+<generatorID>21662ACD-D0B4-3F7D-2058-BA90DBB190CC</generatorID>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E17F97CD-EA10-CE5D-113F-934DBAC4C96B" referredColumn="37935145-E828-6FD0-AD95-09C56CA36093"/>
+</associations>
+</Column>
+<Column name="salariu" id="C7DE087E-C5D9-46D4-6A3B-B3D2D978D9D3">
+<createdBy>claud</createdBy>
+<createdTime>2020-12-16 14:44:34 UTC</createdTime>
+<generatorID>4FEF129A-492A-FE2D-51DC-D0F43E659A94</generatorID>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<constraintName>angajati_salariu_chk</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="salariu&gt;=2300"/>
+</checkConstraint>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FA201021-F6DE-B622-6F19-65C9BDC9CDF0" name="Angajati_PK">
+<createdBy>claud</createdBy>
+<createdTime>2020-12-16 14:44:34 UTC</createdTime>
+<generatorID>099EBC79-6214-EC88-5402-099CC916C716</generatorID>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6B20F7C-C1F4-296B-38D8-568D7B723F57"/>
+<colUsage columnID="AB771B4A-DBBA-DE6C-4B5C-4626E53E8964"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="49412350-6F3E-469C-3C16-7868895D1107" name="Angajati_Echipe_FK">
+<createdBy>claud</createdBy>
+<createdTime>2020-12-16 14:44:34 UTC</createdTime>
+<generatorID>8541F959-02AF-19F9-6F2B-B74CFC119991</generatorID>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC4F6F4C-6888-2271-F880-28A36C7292BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C790E165-346D-166F-45E5-588D8BA7C10C" name="Angajati_Joburi_FK">
+<createdBy>claud</createdBy>
+<createdTime>2020-12-16 14:44:34 UTC</createdTime>
+<generatorID>D410D6C1-42D7-FA16-9A97-FB565ABB46FA</generatorID>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB771B4A-DBBA-DE6C-4B5C-4626E53E8964"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

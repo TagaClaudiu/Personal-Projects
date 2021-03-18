@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="orase_magazine_FK" directorySegmentName="seg_0" id="5AD2548E-F34A-DC76-90BD-A50309E768D8">
+<createdBy>claud</createdBy>
+<createdTime>2020-11-06 11:21:15 UTC</createdTime>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<engineerTo>
+<item key="B71C7078-DEC5-4047-FA6A-3F8546A3286F" value="true"/>
+</engineerTo>
+<sourcePk>71F24093-C276-7084-936B-3B4B217266BB</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>92871A47-E964-38B4-F53F-2BB48D2A1E86</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D4441CE6-612E-0CFD-2326-9142ECC5AE2C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

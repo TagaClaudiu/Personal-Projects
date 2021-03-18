@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8F6BDAF7-1F70-482F-2DED-CABC2CC79038" name="Reparatii_Efectuate">
+<createdBy>claud</createdBy>
+<createdTime>2020-12-14 21:50:06 UTC</createdTime>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<engineerTo>
+<item key="5326FA47-03BD-25D7-D809-260A0EA09F85" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="data_incepere_reparatii" id="A968CC58-E9C8-328F-98BC-F414A9961E35">
+<createdBy>claud</createdBy>
+<createdTime>2020-12-14 22:05:44 UTC</createdTime>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<engineerTo>
+<item key="5326FA47-03BD-25D7-D809-260A0EA09F85" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_terminare_reparatii" id="0B1591C1-6E4B-038B-3B0A-4CC12A705027">
+<createdBy>claud</createdBy>
+<createdTime>2020-12-14 22:06:26 UTC</createdTime>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<engineerTo>
+<item key="5326FA47-03BD-25D7-D809-260A0EA09F85" value="true"/>
+</engineerTo>
+<constraintName>reparatii_data_terminare_chk</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="data_terminare_reparatii &gt; data_incepere_reparatii"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pret_reparatie" id="B6C12962-09B6-97F1-F94B-EC95E227108D">
+<createdBy>claud</createdBy>
+<createdTime>2020-12-14 22:07:19 UTC</createdTime>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<engineerTo>
+<item key="5326FA47-03BD-25D7-D809-260A0EA09F85" value="true"/>
+</engineerTo>
+<constraintName>reparatii_pret_chk</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="pret_reparatie&gt;=0"/>
+</checkConstraint>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_angajat" id="B754276F-9D1F-2849-7FE0-DF6EF537761E">
+<createdBy>claud</createdBy>
+<createdTime>2020-12-16 14:44:06 UTC</createdTime>
+<generatorID>014DBA80-B9C1-EEF7-086E-C55CCD74B81C</generatorID>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<engineerTo>
+<item key="5326FA47-03BD-25D7-D809-260A0EA09F85" value="true"/>
+</engineerTo>
+<referedAttribute>6FA8F065-9CC3-2103-582F-E10B2389EDF3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_job" id="A11D5F08-6350-FD3F-B018-E5C43DD8E329">
+<createdBy>claud</createdBy>
+<createdTime>2020-12-16 14:44:06 UTC</createdTime>
+<generatorID>014DBA80-B9C1-EEF7-086E-C55CCD74B81C</generatorID>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<engineerTo>
+<item key="5326FA47-03BD-25D7-D809-260A0EA09F85" value="true"/>
+</engineerTo>
+<referedAttribute>F2ED94A4-443C-CFAE-5F4A-6B329C8E790E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DB24B0E1-B387-BADA-BABA-40DB20092694" name="Reparatii_Efectuate PK">
+<createdBy>claud</createdBy>
+<createdTime>2020-12-14 22:10:09 UTC</createdTime>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<engineerTo>
+<item key="5326FA47-03BD-25D7-D809-260A0EA09F85" value="true"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+</identifiers>
+</Entity>

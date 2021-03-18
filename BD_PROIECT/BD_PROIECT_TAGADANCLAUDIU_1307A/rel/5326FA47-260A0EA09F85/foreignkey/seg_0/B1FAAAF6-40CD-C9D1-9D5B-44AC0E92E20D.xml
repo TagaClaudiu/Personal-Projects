@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B1FAAAF6-40CD-C9D1-9D5B-44AC0E92E20D" containerWithKeyObject="61F7040E-19E0-3283-027C-536746E3B4C9" localFKIndex="8D1DDBFE-9B1C-C693-22CD-CC69216F965C" name="echipe_magazine_FKv2">
+<createdBy>claud</createdBy>
+<createdTime>2020-12-16 14:44:34 UTC</createdTime>
+<generatorID>5B151BCC-01E7-1094-0945-292A5C5F2DB8</generatorID>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<referredTableLongName>Magazine</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CA5D70A9-76B7-2251-B553-A38F02692D44</referredTableID>
+<keyObject>CD9C24F9-F5EA-5938-D544-9A5974F7DE98</keyObject>
+<referredKeyID>CD9C24F9-F5EA-5938-D544-9A5974F7DE98</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_magazin,Orase_ID_oras</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="90FB5B2B-10B1-BD49-BF3A-672C7EAED456" name="Situatie_Concedii">
+<createdBy>claud</createdBy>
+<createdTime>2020-11-05 13:05:31 UTC</createdTime>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<engineerTo>
+<item key="5C7DA581-0111-F88D-A4A8-7BECE02A2896" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="zile_concediu_ramase" id="A694C40F-3A1D-9391-C71F-57ECB77CC81F">
+<createdBy>claud</createdBy>
+<createdTime>2020-11-05 14:32:55 UTC</createdTime>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<engineerTo>
+<item key="5C7DA581-0111-F88D-A4A8-7BECE02A2896" value="true"/>
+</engineerTo>
+<constraintName>concedii_zile_chk</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>1000</endValue>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+<Attribute name="zile_concediu_medical_ramase" id="18B34828-0664-A3C6-7392-0D7899A31244">
+<createdBy>claud</createdBy>
+<createdTime>2020-11-05 14:33:43 UTC</createdTime>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<engineerTo>
+<item key="5C7DA581-0111-F88D-A4A8-7BECE02A2896" value="true"/>
+</engineerTo>
+<constraintName>concedii_zile_medical_chk</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>1000</endValue>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+<Attribute name="zile_concediu_fara_plata" id="845D39D9-AB02-D6A0-5B82-A2EF2EC74715">
+<createdBy>claud</createdBy>
+<createdTime>2020-11-05 14:34:49 UTC</createdTime>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<engineerTo>
+<item key="5C7DA581-0111-F88D-A4A8-7BECE02A2896" value="true"/>
+</engineerTo>
+<constraintName>concedii_zile_fara_chk</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>50</endValue>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+<Attribute name="ID_angajat" id="EF5F715F-83C0-852B-FC32-3D2E71D3763A">
+<createdBy>claud</createdBy>
+<createdTime>2020-11-05 14:49:39 UTC</createdTime>
+<generatorID>289F9A08-086E-821B-0DBB-AF52FC71D505</generatorID>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<engineerTo>
+<item key="5C7DA581-0111-F88D-A4A8-7BECE02A2896" value="true"/>
+</engineerTo>
+<referedAttribute>6FA8F065-9CC3-2103-582F-E10B2389EDF3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_job" id="9A6183B6-AE1D-FE98-443C-A18745A4BD40">
+<createdBy>claud</createdBy>
+<createdTime>2020-11-06 11:20:25 UTC</createdTime>
+<generatorID>289F9A08-086E-821B-0DBB-AF52FC71D505</generatorID>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<engineerTo>
+<item key="5C7DA581-0111-F88D-A4A8-7BECE02A2896" value="true"/>
+</engineerTo>
+<referedAttribute>F2ED94A4-443C-CFAE-5F4A-6B329C8E790E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

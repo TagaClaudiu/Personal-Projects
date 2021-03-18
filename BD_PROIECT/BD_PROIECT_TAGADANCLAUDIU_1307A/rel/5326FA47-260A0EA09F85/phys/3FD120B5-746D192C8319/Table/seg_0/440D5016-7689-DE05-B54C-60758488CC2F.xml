@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="Reparatii_Efectuate" directorySegmentName="seg_0" id="440D5016-7689-DE05-B54C-60758488CC2F">
+<createdBy>claud</createdBy>
+<createdTime>2020-12-16 14:52:18 UTC</createdTime>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="pret_reparatie" id="11F9060D-43C5-C9DD-B40F-ADE081BCCD65">
+<createdBy>claud</createdBy>
+<createdTime>2020-12-16 14:52:18 UTC</createdTime>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Angajati_id_job" id="26A1E76A-0117-BF4E-07A7-5BCA1CA3D9F9">
+<createdBy>claud</createdBy>
+<createdTime>2020-12-16 14:52:18 UTC</createdTime>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="data_incepere_reparatii" id="3A7BFB93-6F98-DA45-6B7C-E93F9B34FA0F">
+<createdBy>claud</createdBy>
+<createdTime>2020-12-16 14:52:18 UTC</createdTime>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Angajati_ID_angajat" id="74CB2F59-BC85-5C27-1C40-9D654FD4F291">
+<createdBy>claud</createdBy>
+<createdTime>2020-12-16 14:52:18 UTC</createdTime>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="data_terminare_reparatii" id="B4A847F1-CB35-1DEC-72B5-5027560F108C">
+<createdBy>claud</createdBy>
+<createdTime>2020-12-16 14:52:18 UTC</createdTime>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Reparatii_Angajati_FK" id="14EF36BC-DE7D-B25C-7ECD-07C31753A93B">
+<createdBy>claud</createdBy>
+<createdTime>2020-12-16 14:52:18 UTC</createdTime>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Reparatii_Efectuate_PK" id="6D38EBC5-28FA-7538-2B9A-A42D152B39A6">
+<createdBy>claud</createdBy>
+<createdTime>2020-12-16 14:52:18 UTC</createdTime>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

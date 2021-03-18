@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="BD_PROIECT_TAGADANCLAUDIU_1307A" id="AAAF6E86-CD3A-D548-70CF-57C66226446E" version="3.5">
+<createdBy>claud</createdBy>
+<createdTime>2020-11-05 13:03:18 UTC</createdTime>
+<ownerDesignName>BD_PROIECT_TAGADANCLAUDIU_1307A</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>AAAF6E86-CD3A-D548-70CF-57C66226446E</designId>
+</OSDM_Design>
