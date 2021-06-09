@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE persoane SYSTEM "persoane.dtd">
+<persoane>
+    <persoana id="1">
+        <nume>Popescu</nume>
+        <prenume>Ion</prenume>
+        <varsta>23</varsta>
+        <adresa>
+            <strada>Soarelui</strada>
+            <numar>24</numar>
+            <localitate>Iasi</localitate>
+            <tara>Romania</tara>
+        </adresa>
+        <profesie>Inginer</profesie>
+        <sex>M</sex>
+    </persoana>
+
+   <persoana id="2">
+        <nume>Ionescu</nume>
+        <prenume>Popica</prenume>
+        <varsta>32</varsta>
+        <adresa>
+            <strada>Lunii</strada>
+            <numar>42</numar>
+            <localitate>Bucuresti</localitate>
+            <tara>Romania</tara>
+        </adresa>
+        <profesie>Manager</profesie>
+        <sex>M</sex>
+    </persoana>
+
+   <persoana id="3">
+        <nume>Ionescu</nume>
+        <prenume>Bobica</prenume>
+        <varsta>32</varsta>
+        <adresa>
+            <strada>Lunii</strada>
+            <numar>42</numar>
+            <localitate>Bucuresti</localitate>
+            <tara>Romania</tara>
+        </adresa> 
+        <profesie>Inginer Sef</profesie>
+        <sex>M</sex>
+        <!-- <observatie>Fratele geaman a lui Popica</observatie>
+        -->
+    </persoana>
+
+</persoane>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta charset=utf-8>
+        <title> Acasă </title>
+    </head>
+
+    <body>
+        
+        <link rel="stylesheet" href="css/stil.css">
+
+        <header id="main_header">
+            <h1>My PW Website</h1>
+        </header>
+        <nav>
+            <p>
+            
+                <a onclick="schimbaContinut('acasa')">Acasă</a>
+                |
+                <a onclick="schimbaContinut('inregistrare')">Înregistrare</a>
+                |
+                <a onclick="schimbaContinut('despre_html')">Despre HTML</a>
+                |
+                <a onclick="schimbaContinut('desen')">Desen</a>
+                |
+                <a onclick="schimbaContinut('video')">Video</a>
+                |
+                <a onclick="schimbaContinut('invat_js', '' , 'getInfo')">Învăț JS</a>
+                |
+                <a onclick="schimbaContinut('persoane', 'js/persoane.js', 'incarcaPersoane')">Persoane</a>
+                |
+                <a onclick="schimbaContinut('cumparaturi', 'js/cumparaturi.js', 'addToTable')">Cumpărături</a>
+                
+            </p>
+        </nav>
+
+        <main id="continut"></main>
+
+        <script src="js/script.js"></script>
+       
+        
+
+    </body>
+</html>

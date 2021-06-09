@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta charset=utf-8>
+        <title> Învăț JS </title>
+    </head>
+    <body>
+
+        <aside class = "invat" id = "aside_invat">
+            <a href="#sec_1">Sectiunea 1</a> <br>
+            <a href = "#sec_2">Sectiunea 2</a> <br>
+            <a href = "#sec_3">Sectiunea 3</a> <br>
+        </aside>
+        <header>
+            <h1 id= "invat_header"><pre>    Învăț JS</pre></h1>
+        </header>
+            
+            <!-- <body onload = "functii javascript"> <--se executa codul javascript INAINTE sa se incarce body-ul site-ului. deci nu folosi id-urile din body in ea-->
+            
+
+            <section class = "invat" id="sec_1">
+                <h1>Sectiunea 1</h1>
+                <hr>
+                <p id="js_date" >You have quick eyes. Impressive.</p>
+                <p> URL: <b id = "js_url"></b><br>
+                    Locatia curenta: <b id = "js_location"></b><br>
+                    Nume Browser: <b id = "js_bname"></b><br>
+                    Versiune Browser: <b id = "js_bver"></b><br>    
+                    Nume OS: <b id = "js_plat"></b>
+                </p>
+            </section>
+
+            <section class = "invat" id="sec_2">
+                <h1>Sectiunea 2</h1>
+                <hr>
+                <p class = "beauty">Internet Loto!</p>
+                
+                <input type="text" id="loto1" pattern="[A-Z0-9]{2}" size=4>
+                <input type="text" id="loto2" pattern="[A-Z0-9]{2}" size=4>
+                <input type="text" id="loto3" pattern="[A-Z0-9]{2}" size=4>
+                <input type="text" id="loto4" pattern="[A-Z0-9]{2}" size=4> <br>
+                <input type="text" id="loto5" pattern="[A-Z0-9]{2}" size=4>
+                <input type="text" id="loto6" pattern="[A-Z0-9]{2}" size=4>
+                <input type="text" id="loto7" pattern="[A-Z0-9]{2}" size=4>
+                <input type="text" id="loto8" pattern="[A-Z0-9]{2}" size=4>
+                <br>
+                <input type="button" id="buttonLoto" value = "Joaca!" onclick="lotoJoc()">
+
+                <p id="raspunsuri"></p>
+                <p id="raspunsuri2"></p>
+            </section>
+
+            <section class = "invat" id="sec_3">
+                <h1>Sectiunea 3</h1>
+                <hr>
+                <p>Canvas de desenat un dreptunghi. Da click pe canvas dupa observatie.</p>
+                <label for="culoare_contur">Culoare contur</label>
+                <input type="color" id="culoare_contur">
+                <input type="color" id="culoare_umplere">
+                <label for="culoare_umplere">Culoare umplere</label>
+                <br>
+                <canvas id="js_canvas" width="300px" height = "300px" onclick="desenCanvas(event)"></canvas>
+                <p style="font-size:small;">Observatie: primul click pentru primul colt, click-ul urmator pentru celalalt colt, un al 3lea click pentru stergerea desenului.</p>
+            </section>
+            <!--<script ...> mereu la final!!-->
+
+
+            
+    </body>
+</html>

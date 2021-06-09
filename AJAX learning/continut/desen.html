@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta charset=utf-8>
+        <title> Desen </title>
+    </head>
+    <body>
+        <header>
+            <h1>Desen</h1>
+            </header>
+            
+            
+
+            <section>
+                <svg width="1500" height="800">
+					<defs>
+						<linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+							<stop offset="0%" style="stop-color:rgb(222, 0, 143);stop-opacity:1"/>
+							<stop offset="100%" style="stop-color:rgb(73, 141, 228); stop-opacity:1"/>
+						</linearGradient>
+						
+						<linearGradient id="grad2" x1="0%" y1="0%" x2="0%" y2="100%">
+							<stop offset="0%" style="stop-color:rgb(222, 0, 143);stop-opacity:1"/>
+							<stop offset="100%" style="stop-color:aqua; stop-opacity:1"/>
+						</linearGradient>
+						
+						<linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="100%">
+							<stop offset="0%" style="stop-color:aqua;stop-opacity:1"/>
+							<stop offset="100%" style="stop-color:rgb(223, 104, 176); stop-opacity:1"/>
+						</linearGradient>
+						
+						<linearGradient id="grad4" x1="0%" y1="0%" x2="0%" y2="75%" x3="0%" y3="100%">
+							<stop offset="0%" style="stop-color:rgb(0, 0, 0);stop-opacity:1"/>
+							<stop offset="75%" style="stop-color:rgb(255, 52, 127);stop-opacity:1"/>
+							<stop offset="100%" style="stop-color:aqua; stop-opacity:1"/>
+						</linearGradient>
+						
+						<linearGradient id="grad5" x1="0%" y1="25%" x2="100%" y2="25%" x3="25%" y3="100%" x4="75%" y4="100%">
+							<stop offset="0%" style="stop-color:yellow;stop-opacity:1"/>
+							<stop offset="25%" style="stop-color:rgb(228, 216, 78);stop-opacity:1"/>
+							<stop offset="50%" style="stop-color:aqua;stop-opacity:1"/>
+							<stop offset="75%" style="stop-color:rgb(255, 52, 127);stop-opacity:1"/>
+							<stop offset="100%" style="stop-color:rgb(137, 0, 0); stop-opacity:1"/>
+						</linearGradient>
+
+						<linearGradient id="grad6" x1="0%" y1="0%" x2="0%" y2="100%">
+							<stop offset="0%" style="stop-color:rgb(226, 6, 6);stop-opacity:1"/>
+							<stop offset="100%" style="stop-color:rgb(124, 16, 16); stop-opacity:1"/>
+						</linearGradient>
+					</defs>
+					
+                    <rect x= 50 y=100 width=300 height=250 style="fill:url(#grad1); stroke-width:5; stroke: magenta; opacity: 0.5"/>
+                    <circle cx=575 cy=225 r=125 style="fill:url(#grad2); stroke-width:5; stroke: magenta; opacity: 0.5"/>
+                    <polygon points="800,150 950,100 1100,150 1050,350 850,350" style="fill:url(#grad3); stroke-width:5; stroke: magenta; opacity: 0.5"/>
+					<polygon points="1150,350 1450,350 1300,100" style="fill:url(#grad4); stroke-width:5; stroke: magenta; opacity: 0.5"/>
+					
+					<ellipse cx=750 cy=800 rx=450 ry=240 style="fill:url(#grad5); stroke-width:5; stroke: magenta; opacity: 0.5" ></ellipse>
+					<polygon points ="750,450 500,750 1050,550 450,550 1000,750" style="fill:url(#grad5); stroke-width:5; stroke:magenta; opacity: 1"/>
+					
+					<ellipse cx=700 cy=590 rx=45 ry=20 style="fill:rgb(190, 253, 253); stroke-width:2; stroke: magenta; opacity: 1"></ellipse>
+
+					<ellipse cx=800 cy=590 rx=45 ry=20 style="fill:rgb(190, 253, 253); stroke-width:2; stroke: magenta; opacity: 1"></ellipse>
+					
+					<ellipse cx=700 cy=590 rx=12 ry=10 style="fill:url(#grad6); stroke-width:2; stroke: rgb(104, 8, 8); opacity: 1"></ellipse>
+
+					<ellipse cx=800 cy=590 rx=12 ry=10 style="fill:url(#grad6); stroke-width:2; stroke: rgb(104, 8, 8); opacity: 1"></ellipse>
+					
+					<circle cx=700 cy=590 r=5 style="fill:black; stroke-width:2; stroke: black; opacity: 1"></circle>
+					<circle cx=800 cy=590 r=5 style="fill:black; stroke-width:2; stroke: black; opacity: 1"></circle>
+
+					<text fill="#000000" font-size = "20" font-family="Verdana" x=150 y=225>Welcome</text>
+					<text fill="#000000" font-size = "20" font-family="Verdana" x=565 y=225>To</text>
+					<text fill="#000000" font-size = "20" font-family="Verdana" x=935 y=225>My</text>
+					<text fill="#000000" font-size = "20" font-family="Verdana" x=1255 y=225>Website!</text>
+					<text fill="url(#grad5)" font-size = "35" font-family="Verdana" x=500 y=425>I'm watching you, mortal.</text>
+					<text fill="url(#grad6)" font-size = "35" font-family="Verdana" x=502 y=427>I'm watching you, mortal.</text>
+                </svg>
+            </section>
+    </body>
+</html>

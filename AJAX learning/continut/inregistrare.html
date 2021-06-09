@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+			<meta charset=utf-8>
+            <title>Înregistrare</title>
+    </head>
+
+    <body>
+
+        <header>
+            <h1>Înregistrare</h1>
+        </header>
+        
+
+        <form id="Formular">
+        <fieldset>
+            <legend>Informații generale:</legend>
+
+            <label for="username"> Nume utilizator: </label>
+            <input type="text" id="username" name="Username"><br><br>
+            
+            <label for="password"> Parolă: </label>
+            <input type="password" id="password" name="Password"><br><br>
+            
+            <label for="fname"> Nume: </label>
+            <input type="text" id="fname" name="Fname"><br><br>
+            
+            <label for="lname"> Prenume: </label>
+            <input type="text" id="lname" name="Lname"><br><br>
+            
+            <label for= "email">Email: </label>
+            <input type="email" id="email" name="Email"><br><br>
+            
+            <label for= "telef"> Telefon: </label>
+            <input type = "tel" id="telef" name="Telef"><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Informații personale: </legend>
+
+            <label for= "sex">Sexul: </label>
+            <select id ="sex" name="Sex">
+                <option value="M">M</option>
+                <option value="F">F</option>
+            </select>
+            <br><br>
+
+            <label for="mancare">Mâncare preferată</label>
+            <input list ="mancare-alegeri" id="mancare" name="Mancare-Preferata"><br><br>
+            <datalist id="mancare-alegeri" name="Mancare">
+                <option value="Paste cu carne">Paste cu carne</option>
+                <option value="Hamburger">Hamburger</option>
+                <option value="Supa de legume">Supă de legume</option>
+                <option value="Ciorba cu perisoare">Ciorbă cu perișoare</option>
+                <option value="Friptura de porc">Friptură de porc</option>
+                <option value="Frigarui de pui">Frigărui de pui</option>
+                <option value="Salata cu ton">Salată cu ton</option>
+                <option value="Taitei cu vita">Tăitei cu vita</option>
+            </datalist>
+            
+            <label for="culoare">Culoarea preferată: </label>
+            <input type="color" id="culoare" name="Culoare"><br><br>
+
+            <label for="nastere">Data nașterii: </label>
+            <input type="date" id="nastere" name="Nastere"><br><br>
+
+            <label for="ora-nastere">Ora nașterii: </label>
+            <input type="time" id="ora-nastere" name="Ora-nastere"><br><br>
+
+            <label for="varsta">Vârstă: </label>
+            <input type="range" id="varsta" name="Varsta"
+            min="0" max="100">
+            <br><br>
+
+            <label for="adresa">Adresa personală: </label>
+            <input type="url" id="adresa" name="Adresa"><br><br>
+
+            <label for="descriere">Descriere: </label>
+            <textarea id="descriere" name="Descrierea" rows="5" cols="60"></textarea>
+        </fieldset>
+
+		<br>
+        <input type="submit" value="Înregistreaza" disabled>
+
+        </form>
+
+    </body>
+</html>

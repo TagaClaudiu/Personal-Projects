@@ -1,0 +1,189 @@
+body {
+    background-color: rgb(200, 228, 238);
+    background-image: url("../images/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+  
+  header {
+      background: linear-gradient(90deg, rgba(58, 221, 243, 0.35) 25%, rgba(69, 160, 235, 0.35) 50%, rgba(255, 192, 255, 0.35) 100%);
+      text-align: center;
+      font-family:'Times New Roman', Times, serif;
+      letter-spacing: 5px;
+      color: black;
+      padding: 30px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+
+      
+
+  }
+
+  header#main_header
+  {
+    background-image: url("../images/head_bg.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+    font-size: 45px;
+
+  }
+
+  a {
+    text-decoration: underline;
+    color: rgb(0, 132, 255);
+  }
+
+  a:visited {
+    text-decoration: underline;
+    color: rgb(0, 255, 179);
+  }
+
+  a:hover {
+    color: lightblue;
+    cursor: pointer;
+  }
+
+  a:active {
+    color: lightpink;
+  }
+  header h1 {
+      margin-top: 0px;
+      margin-bottom: 0px;
+  }
+
+  nav {
+      background-color: rgb(99, 174, 245);
+      background: linear-gradient(90deg, rgba(58, 221, 243, 0.35) 25%, rgba(69, 160, 235, 0.35) 50%, rgba(255, 192, 255, 0.35) 100%);
+      text-align: center;
+      font-family: verdana;
+      font-size: 25px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+  }
+
+  nav p {
+      margin-top: 0px;
+      
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+  
+  p.index {
+	  border-style: groove;
+	  background: linear-gradient(90deg, rgba(58, 221, 243, 0.35) 25%, rgba(69, 160, 235, 0.35) 50%, rgba(255, 192, 255, 0.35) 100%); 
+	  }
+	  
+  table.despre, td { border: 1px solid black; }
+		  
+  .vid {
+  font-size: 30px;
+  text-shadow: 2px 2px;
+  margin-bottom: 0px;
+ 
+  }
+
+  section.vid {
+    text-align: center;
+  }
+
+  .vid::first-letter {
+    font-size: 40px;
+  }
+  
+  .despre#sec_1 h1 { font-size: 40px; }
+  .despre#sec_1 h2 { font-size: 30px; }
+  
+  .despre#sec_1, .despre#sec_2, .despre#sec_3 {
+	  border-style: solid;
+	  padding: 10px;
+	  background: linear-gradient(45deg, rgba(58, 221, 243, 0.35) 25%, rgba(69, 160, 235, 0.35) 50%, rgba(255, 192, 255, 0.35) 100%);
+	  margin-bottom: 25px;
+	  font-family: serif;
+  }
+  
+  .invat#sec_1 , .invat#sec_2, .invat#sec_3 {
+    border-style: solid;
+    padding: 10px;
+    background: linear-gradient(45deg, rgba(58, 221, 243, 0.35) 25%, rgba(69, 160, 235, 0.35) 50%, rgba(255, 192, 255, 0.35) 100%);
+    margin-bottom: 25px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .invat#sec_2, .invat#sec_3 {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .invat#sec_2 p.beauty {
+    border-style: solid;
+    background: linear-gradient(90deg, rgba(255, 255, 0, 0.5) 50%, rgba(255,127,80, 0.50) 100%);
+    border-color: red;
+    padding: 20px;
+  }
+
+  .invat#sec_1 b {
+    font-weight: lighter;
+  }
+
+  .invat#aside_invat {
+    float: right;
+    font-style: italic; 
+    border-style:groove;
+    border-color: lightgray;
+    padding: 25px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-size: 15px;
+    background-color: rgba(230, 230, 230, 0.15);
+  }
+
+  section.invat h1 {
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 5px;
+  }
+
+  h1#invat_header pre{
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  canvas#js_canvas {
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+  }
+
+  .despre p { font-family: serif; font-size: 15px;}
+  
+  #FormularCump label{
+      margin-right: 260px;
+      margin-left: -75px;
+  }
+
+  #FormularCump input{
+      margin-right: 100px;
+    
+  }
+
+  #FormularCump fieldset{
+    text-align: center;
+  }
+
+  #persoane_section table, #cumparaturi_tabel {
+    border: 2px solid black;
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  #cumparaturi_tabel tr, #cumparaturi_tabel th, #cumparaturi_tabel td, #persoane_section tr,   #persoane_section th,   #persoane_section td {
+    border: 2px solid black;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 5px;
+    background: linear-gradient(45deg, rgba(58, 221, 243, 0.35) 25%, rgba(69, 160, 235, 0.35) 50%, rgba(255, 192, 255, 0.35) 100%);
+  }

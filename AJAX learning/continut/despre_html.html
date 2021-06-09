@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta charset=utf-8>
+        <title>Programare web</title>
+
+    </head>
+    <body>
+        <header>
+            <h1>Programare web</h1>
+        </header>
+		
+		<section class="despre" id = "sec_1">
+		<h1><b>Programare web</b></h1>
+        <h2><b>Limbajul HTML</b></h2>
+        <p><b>HTML (HyperText Markup Language)</b> este un <i>limbaj de marcare</i> utilizat pentru a crea pagini web.</p>
+        
+        <p>Un exemplu de cod html il gasiti in imaginea urmatoare
+            care se afla la adresa
+            <a href="http://upload.wikimedia.org/wikipedia/commons/e/e4/HTML_logo.png">
+                http://upload.wikimedia.org/wikipedia/commons/e/e4/HTML_logo.png
+            </a>
+            <br/>
+            Imaginea are atributul height de valoare 147.
+        </p>
+
+            <img src="http://upload.wikimedia.org/wikipedia/commons/e/e4/HTML_logo.png" 
+            alt= "HTML_logo" height = "147">
+        
+        <p> <b><em>Tag-urile</em></b> html cele mai utilizate in realizarea tabelelor sunt:</p>
+        <table class="despre">
+            <tr>
+                <td>table</td>
+                <td>defineste un tabel</td>
+            </tr>
+            <tr>
+                <td>tr</td>
+                <td>un rand intr-un tabel</td>
+            </tr>
+            <tr>
+                <td>td</td>
+                <td>o celula intr-un tabel</td>
+            </tr>
+        </table>
+        <p><b>Observatie:</b> Pentru a pune un contur unui tabel se poate (dar nu se recomanda) sa se puna atributul border="1".
+        La validare va da eroarea: <em>The border attribute on the table element is obsolete.</em></p>
+		
+		</section>
+		
+		<section class="despre" id="sec_2">
+		<p>Formularele se pot crea cu ajutorul tag-ului form care poate contine tag-urile: input, textarea, label, select, option, button.
+		<br>Pentru mai multe detalii cosnultati cursul sau tutorialul
+		<a href="http://www.w3schools.com/html/html_forms.asp">HTML Forms and Inputs</a>
+		de la adresa
+		<a href="http://www.w3schools.com/html/html_forms.asp">http://www.w3schools.com/html/html_forms.asp</a>.</p>
+		<p>Un exemplu de formular este urmatorul:
+		<fieldset class="despre" id="form1">
+			<label for="fname"> Nume: </label>
+            <input type="text" id="fname" name="Fname"><br><br>
+			<label for="lname"> Prenume: </label>
+            <input type="text" id="lname" name="Lname"><br><br>
+			<label for="pword"> Parola: </label>
+            <input type="password" id="pword" name="Pword"><br><br>
+			
+			<label for="cul">Culoarea preferată</label>
+            <input list ="cul-alegeri" id="cul" name="Cul-Preferata"><br><br>
+            <datalist id="cul-alegeri" name="Cul">
+                <option value="Rosu">Rosu</option>
+				<option value="Albastru">Albastru</option>
+				<option value="Verde">Verde</option>
+			</datalist>
+				
+			<label for="descriere">Descriere: </label>
+			<textarea id="descriere" name="DescArea" rows = 4 cols = 50> </textarea> <br><br>
+			
+			
+			<input type="checkbox" id="conditii" name="Conditii" value="acord">
+			<label for="conditii">Sunt de acord cu conditiile <label>
+			<br><br>
+			
+			<input type="submit" value="Inregistreaza">
+		</fieldset>
+		</section>
+		
+		<section class="despre" id="sec_3">
+			<p>Pentru a crea liste se pot folosi tag-urile:<br></p>
+			<ol type ="i">
+				<li>ul - lista neordonata</li>
+				<li>ol - lista ordonata</li>
+				<li>li - item din lista</li>
+				<li>dl - lista cu descrieri</li>
+				<li>dt - termen dintr-o lista cu descrieri</li>
+				<li>dd - descriere dintr-o lista cu descrieri</li>
+			</ol>
+		
+			<p>Pentru a insera un document HTML în altul se poate folosi tag-ul &#60iframe&#62.
+			<br>Astfel, exemplul de mai jos inserează conținutul de la adresa 
+			<a href= https://html.spec.whatwg.org/multipage/>https://html.spec.whatwg.org/multipage/</a>. </p>
+			
+			<iframe class = "web" width="1000" height = "1000" src="https://html.spec.whatwg.org/multipage/">
+        </iframe>
+		<hr>
+		&copy.2020.Programare web
+		</section>
+		
+    </body>
+</html>

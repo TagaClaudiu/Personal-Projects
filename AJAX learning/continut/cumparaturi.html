@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta charset=utf-8>
+        <title>Cumpărături</title>
+
+    </head>
+
+
+    <body>
+        <header>
+            <h1>Cumpărături</h1>
+        </header>
+
+        <form id="FormularCump">
+        <fieldset>
+            <label for="nume_produs">Nume produs</label>
+            
+            <label for="cantitate_produs">Cantitate produs</label><br>
+
+            <input type="text" id="nume_produs" name="Nume_Produs">
+            
+            <input type="text" id="cantitate_produs" name="Cantitate_Produs">
+            
+            <input type="button" id="adauga_produs" value="Adaugă" onclick="addToList()">
+        </fieldset>
+        </form>
+
+        <table id="cumparaturi_tabel">
+            <tr>
+                <th>Nr.</th>
+                <th>Nume produs</th>
+                <th>Cantitate produs</th>
+            </tr>
+        </table>
+        <p id="write_me_here">
+
+        </p>
+        
+    </body>
+
+
+</html>
