@@ -1,0 +1,14 @@
+<form id="auten" method="POST" action="verificare-autentificare">
+
+    <%if (error){ %>
+        <p id="eroare"><%=error%></p>
+    <% }%>
+    <label for="username"> Nume utilizator: </label>
+    <input type="text" id="username" name="Username"><br><br>
+            
+    <label for="password"> Parolă: </label>
+    <input type="password" id="password" name="Password"><br><br>
+
+    <input type="submit" id="submit" value="Autentificare">
+
+</form>

@@ -1,0 +1,62 @@
+{
+    "listaIntrebari" : [
+        {
+        "intrebare": "Întrebarea 1: De ce documente este nevoie pentru eliberarea unui pasaport?",
+        "variante": [
+            "Cartea de identitate in original",
+            "Documentul care face dovada achitarii taxei pentru pasaport",
+            "Copie dupa cartea de identitate si documentul deveditor achitarii taxei",
+            "Cartea de identitate in original, documentul doveditor chitarii taxei si pasaportul anterior daca exista"
+        ],
+        "corect": "3"
+        },
+   
+
+        {
+            "intrebare": "Întrebarea 2: Pentru inscrierea la facultate, de ce NU ai nevoie?",
+            "variante": [
+                "Fisa de inscriere",
+                "Copie dupa buletin",
+                "Diploma de Bacalaureat",
+                "Buletin in original"
+            ],
+            "corect": "3"
+        },
+
+
+        {
+            "intrebare": "Întrebarea 3: Pentru cazarea in camin, sunt necesare actele:",
+            "variante": [
+                "Copie buletin + original",
+                "Copie certificat de nastere",
+                "Copie buletin + original si copie certificat de nastere",
+                "Contractul tip, 2 poze tip buletin, copie buletin + original, copie certificat de nastere"
+            ],
+            "corect": "3"
+        },
+
+
+        {
+            "intrebare": "Întrebarea 4: Din cati in cati ani trebuie schimbat buletinul?",
+            "variante": [
+                "4, 8, 16 ani",
+                "6, 10, 40 ani",
+                "4, 6, 10 ani",
+                "Nu trebuie schimbat"
+            ],
+            "corect": "1"
+        },
+
+
+        {
+            "intrebare": "Întrebarea 5: Cu ce documente NU poti vota?",
+            "variante": [
+                "Cartea de identitate",
+                "Card de sanatate",
+                "Buletin",
+                "Carnet de serviciu militar"
+            ],
+            "corect": "1"
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+
+<% if(rolUtilizator == "ADMIN") {%>
+<nav>
+    <a href="/">Acasa</a> 
+|
+    <a href="/chestionar">Chestionar</a> 
+</nav>
+
+<% if(numeUtilizator) {%>
+    <p name="conectat">Sunteti conectat ca <%=numeUtilizator%>. 
+        <a href="/deconectare">Deconectati-va.</a></p>
+<% } %>
+<div>
+<img src='images/duck.gif' alt="Duck1" width="100" height="100">
+<h1>Welcome home, administrator!</h1>
+<img src='images/duck.gif' alt="Duck2" width="100" height="100">
+</div>
+
+<h2>Inserare produs in tabela produse</h2>
+
+<form name="form_button_admin"  action="/inserare-una-db" method="POST">
+    <label for="produs_ID"> ID Produs (numar intreg de la 0 la 100): </label>
+    <input type="text" id="produs_ID" name="ID"><br><br>
+    <label for="produs_Nume"> Nume produs: </label>
+    <input type="text" id="produs_Nume" name="Nume"><br><br>
+    <label for="produs_Cantitate"> Cantitate produs (numar intreg de la 0 la 100): </label>
+    <input type="text" id="produs_Cantitate" name="Cantitate"><br><br>
+    <label for="produs_Pret"> Pret produs (numar real mai mare ca 0, cu maxim 2 decimale, si 5 cifre totale): </label>
+    <input type="text" id="produs_Pret" name="Pret"><br><br>
+    <input type="submit" id="produs_Submit" value="Insereaza produsul in baza de date">
+</form>
+
+<% } %>

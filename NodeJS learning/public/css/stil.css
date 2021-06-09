@@ -1,0 +1,77 @@
+body {
+    background-color: lightgrey;
+}
+
+header {
+    background: linear-gradient(90deg, rgba(253, 42, 42, 0.35) 25%, rgba(255, 117, 36, 0.35) 50%, rgba(255, 174, 24, 0.35) 100%);
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: 5px;
+    color: black;
+    padding: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+nav {
+    background-color: rgb(99, 174, 245);
+    background: linear-gradient(90deg, rgba(250, 50, 0, 0.35) 25%, rgba(255, 187, 0, 0.35) 50%, rgba(255, 145, 0, 0.35) 100%);
+    text-align: center;
+    font-family: verdana;
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+section#main-section {
+    border-style: solid;
+	padding: 10px;
+	background: linear-gradient(45deg, rgba(243, 132, 58, 0.05) 25%, rgba(235, 69, 69, 0.05) 50%, rgba(232, 247, 34, 0.05) 100%);
+	margin-bottom: 25px;
+	font-family: serif;
+}
+
+#auten {
+    text-align: center;
+}
+
+#indexh2 {
+    text-align: center;
+}
+
+#eroare {
+    font-size: 15px;
+    color: red;
+}
+
+table
+{
+    width: 100%;
+}
+
+table tr, table th, table td{
+    border: 1px solid black;
+}
+
+#cos_h2 {
+    text-align: center;
+}
+
+#td_button {
+    border: 0px;
+}
+
+div {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+div#rez_div {
+    justify-content: left;
+}
+p#raspunsuri {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}

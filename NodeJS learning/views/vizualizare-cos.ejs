@@ -1,0 +1,32 @@
+<nav>
+    <a href="/">Acasa</a> 
+|
+    <a href="/chestionar">Chestionar</a> 
+|
+    <a href="/vizualizare-cos">Vizualizare cos</a>
+</nav>
+
+<% if(numeUtilizator) {%>
+    <p name="conectat">Sunteti conectat ca <%=numeUtilizator%>. 
+        <a href="/deconectare">Deconectati-va.</a></p>
+<% } %>
+
+<h2 id="cos_h2">Cosul dumneavoastra</h2>
+<% if(database) {%>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Nume</th>
+            <th>Numar produse</th>
+            <th>Pret (lei)</th>
+        </tr>
+        <%for(var i=0; i<database.length; i++) { %>
+            <tr>
+                <td><%=database[i][0]%></td> 
+                <td><%=database[i][1]%></td> 
+                <td><%=database[i][2]%></td> 
+                <td><%=database[i][3]%></td> 
+            </tr>
+           
+            <%  } }  %>
+    </table>

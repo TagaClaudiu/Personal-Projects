@@ -1,0 +1,59 @@
+
+<% if(numeUtilizator) {%>
+    <nav>
+        <a href="/">Acasa</a> 
+    |
+        <a href="/chestionar">Chestionar</a> 
+    |
+        <a href="/vizualizare-cos">Vizualizare cos</a>
+
+    <% if(rolUtilizator == "ADMIN") {%>
+    |
+        <a href="/admin">Admin</a>
+    <% } %>
+    </nav>
+<p id="conectat">Sunteti conectat ca <%=numeUtilizator%>. 
+    <a href="/deconectare">Deconectati-va.</a></p>
+<h2 id ="indexh2_2">
+    Bine ai venit, <%= numeIntreg %> !
+</h2>
+<div>
+<form id="dbbutt1" action="/creare-db" method="POST">
+    <button type="submit">Create DataBase</button>
+</form>
+<form id="dbbutt2" action="/inserare-db" method="POST">
+    <button type="submit">Load DataBase</button>
+</form>
+</div>
+<% if(database) {%>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Nume</th>
+            <th>Cantitate in stoc</th>
+            <th>Pret (lei)</th>
+        </tr>
+        <%for(var i=0; i<database.length; i++) { %>
+            <tr>
+                <td><%=database[i][0]%></td> 
+                <td><%=database[i][1]%></td> 
+                <td><%=database[i][2]%></td> 
+                <td><%=database[i][3]%></td> 
+                <td name="td_button">
+                    <form method='POST' action='adaugare-cos'>
+                        <input type="hidden" name="id" value=<%=database[i][0]%>>
+                        <input type="submit" value="Adauga in cos">
+                    </form>
+                </td>
+            </tr>
+           
+            <%  } }  %>
+    </table>
+    
+
+<% } else { %>
+<h2 id ="indexh2">
+    <a href="/autentificare">Autentifica-te!</a>
+</h2>
+
+<% } %>

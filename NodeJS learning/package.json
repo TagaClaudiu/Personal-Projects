@@ -1,0 +1,29 @@
+{
+  "name": "proiect-2-tagaclaudiu",
+  "version": "1.0.0",
+  "description": "proiect 2 PW",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "express-session": "^1.17.2",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HDR-Organization/proiect-2-TagaClaudiu.git"
+  },
+  "author": "Taga Claudiu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HDR-Organization/proiect-2-TagaClaudiu/issues"
+  },
+  "homepage": "https://github.com/HDR-Organization/proiect-2-TagaClaudiu#readme"
+}

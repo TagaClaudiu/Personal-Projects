@@ -1,0 +1,66 @@
+<nav>
+    <a href="/">Acasa</a> 
+|
+    <a href="/chestionar">Chestionar</a> 
+</nav>
+
+<% if(numeUtilizator) {%>
+    <p name="conectat">Sunteti conectat ca <%=numeUtilizator%>. 
+        <a href="/deconectare">Deconectati-va.</a></p>
+<% } %>
+
+
+<h2 id="rez_chest_h2">Rezultate:</h2>
+<%var raspuns; var corecte = 0;%>
+
+<p><%=intrebari[0].intrebare %></p>
+<% raspuns = rezultat.intrebare0; %>
+<% if (raspuns == "rasp0") raspuns = 0;%>
+<% if (raspuns == "rasp1") raspuns = 1;%>
+<% if (raspuns == "rasp2") raspuns = 2;%>
+<% if (raspuns == "rasp3") raspuns = 3;%>
+<p>Raspunsul tau: <%=intrebari[0].variante[raspuns] %> <br> Raspuns corect: <%=intrebari[0].variante[intrebari[0].corect] %> </p>
+<% if (raspuns == intrebari[0].corect) corecte += 1; %>
+
+<p><%=intrebari[1].intrebare %></p>
+<% raspuns = rezultat.intrebare1; %>
+<% if (raspuns == "rasp0") raspuns = 0;%>
+<% if (raspuns == "rasp1") raspuns = 1;%>
+<% if (raspuns == "rasp2") raspuns = 2;%>
+<% if (raspuns == "rasp3") raspuns = 3;%>
+<p>Raspunsul tau: <%=intrebari[1].variante[raspuns] %> <br> Raspuns corect: <%=intrebari[1].variante[intrebari[1].corect] %> </p>
+<% if (raspuns == intrebari[1].corect) corecte += 1; %>
+
+<p><%=intrebari[2].intrebare %></p>
+<% raspuns = rezultat.intrebare2; %>
+<% if (raspuns == "rasp0") raspuns = 0;%>
+<% if (raspuns == "rasp1") raspuns = 1;%>
+<% if (raspuns == "rasp2") raspuns = 2;%>
+<% if (raspuns == "rasp3") raspuns = 3;%>
+<p>Raspunsul tau: <%=intrebari[2].variante[raspuns] %> <br> Raspuns corect: <%=intrebari[2].variante[intrebari[2].corect] %> </p>
+<% if (raspuns == intrebari[2].corect) corecte += 1; %>
+
+<p><%=intrebari[3].intrebare %></p>
+<% raspuns = rezultat.intrebare3; %>
+<% if (raspuns == "rasp0") raspuns = 0;%>
+<% if (raspuns == "rasp1") raspuns = 1;%>
+<% if (raspuns == "rasp2") raspuns = 2;%>
+<% if (raspuns == "rasp3") raspuns = 3;%>
+<p>Raspunsul tau: <%=intrebari[3].variante[raspuns] %> <br> Raspuns corect: <%=intrebari[3].variante[intrebari[3].corect] %> </p>
+<% if (raspuns == intrebari[3].corect) corecte += 1; %>
+
+<p><%=intrebari[4].intrebare %></p>
+<% raspuns = rezultat.intrebare4; %>
+<% if (raspuns == "rasp0") raspuns = 0;%>
+<% if (raspuns == "rasp1") raspuns = 1;%>
+<% if (raspuns == "rasp2") raspuns = 2;%>
+<% if (raspuns == "rasp3") raspuns = 3;%>
+<p>Raspunsul tau: <%=intrebari[4].variante[raspuns] %> <br> Raspuns corect: <%=intrebari[4].variante[intrebari[4].corect] %> </p>
+<% if (raspuns == intrebari[4].corect) corecte += 1; %>
+
+
+<div id = "rez_div">
+    <img src='images/cow.gif' alt="cow1" width="50" height="50">
+    <p id = "raspunsuri">Raspunsuri corecte: <%=corecte%>/5; Nota: <%=corecte * 2%>/10</p>
+    <img src='images/cow.gif' alt="cow2" width="50" height="50">
+</div>

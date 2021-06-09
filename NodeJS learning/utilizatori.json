@@ -1,0 +1,20 @@
+{
+    "Utilizatori": [
+        {
+            "username": "vex",
+            "password": "vex",
+            "fullname": "Vexters",
+            "title": "The Absolute Madlad" ,
+            "role": "ADMIN"
+        },
+
+        {
+            "username": "user",
+            "password": "user",
+            "fullname": "Anon",
+            "title": "The Unknown" ,
+            "role": "USER"
+        }
+    ]
+    
+}

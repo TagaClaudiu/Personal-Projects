@@ -1,0 +1,27 @@
+<nav>
+    <a href="/">Acasa</a> 
+|
+    <a href="/chestionar">Chestionar</a> 
+
+</nav>
+
+<form method="POST" action="rezultat-chestionar">
+
+    <% if(numeUtilizator) {%>
+        <p name="conectat">Sunteti conectat ca <%=numeUtilizator%>. 
+            <a href="/deconectare">Deconectati-va.</a></p>
+    <% } %>
+    
+    <% for(var i=0; i<5; i++) {%>
+    <p> <%= intrebari[i].intrebare%></p>
+    <% for(var j=0; j<4; j++) {%>
+    <% var idTemp = "i" + i + "r" + j; var nameTemp = "intrebare" + i; var valTemp = "rasp" + j; %>
+    <input type="radio" id=<%=idTemp%> name=<%=nameTemp%> value=<%=valTemp%>>
+    <label for=<%=idTemp%>> <%=intrebari[i].variante[j]%> </label>
+    <br>
+    <% } %>
+
+    <% } %> 
+    <br>
+    <input type="submit" id="submit" value="Submit">
+</form>
