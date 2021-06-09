@@ -1,0 +1,149 @@
+body {
+    background-color: rgb(200, 228, 238);
+    background-image: url("../images/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 20px;
+}
+
+header {
+    background: linear-gradient(90deg, rgba(255, 218, 11, 0.45) 25%, rgb(252, 204, 101, 0.45) 50%, rgb(255, 60, 60, 0.45) 100%);
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: 5px;
+    color: black;
+    padding: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+nav {
+    text-align: center;
+    font-family: verdana;
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+nav div {
+    background: linear-gradient(90deg, rgba(255, 218, 11, 0.25) 25%, rgba(252, 204, 101, 0.25) 50%, rgba(255, 60, 60, 0.25) 100%);
+    display: inline-block;
+    border: groove black 2px;
+}
+
+section#main-section {
+    border-style: solid;
+	padding: 10px;
+	background: linear-gradient(45deg, rgba(243, 132, 58, 0.25) 25%, rgba(235, 69, 69, 0.25) 50%, rgba(232, 247, 34, 0.25) 100%);
+	margin-bottom: 25px;
+	font-family: serif;
+}
+
+div#index_div {
+    justify-content: center;
+    text-align: center;
+}
+
+div#program_div {
+    justify-content: center;
+    text-align: center;
+}
+
+div#comanda_div {
+    justify-content: center;
+    text-align: center;
+}
+
+#comanda_alert {
+    color: red;
+}
+
+div#plan_afaceri, div#despre_div {
+    justify-content: center;
+    text-align: center;
+}
+
+#program_table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    border-style: hidden;
+}
+
+#program_table th, #program_table td {
+    border: solid black 3px;
+}
+
+#program_table td {
+    border-bottom: none;
+    border-top: none;
+}
+
+#afisare_db table, div#afisare_cos_db table {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    border: solid black 3px;
+    background-color: rgba(187, 12, 0, 0.356);
+    background: linear-gradient(45deg, rgba(255, 218, 11, 0.45) 25%, rgb(252, 204, 101, 0.45) 50%, rgb(255, 60, 60, 0.45) 100%);
+    border-collapse: collapse;
+}
+
+#afisare_db table td, #afisare_cos_db table td {
+    border: solid black 3px;
+    font-size: 20px;
+}
+
+#afisare_db table th, #afisare_cos_db table th {
+    background-color: rgba(159, 187, 0, 0.356);
+    border: solid black 3px;
+    font-size: 25px;
+}
+
+#auten {
+    justify-content: center;
+    text-align: center;
+}
+
+a {
+    text-decoration: underline;
+    color: rgb(0, 132, 255);
+  }
+
+  a:visited {
+    text-decoration: underline;
+    color: rgb(0, 255, 179);
+  }
+
+  a:hover {
+    color: lightblue;
+    cursor: pointer;
+  }
+
+  a:active {
+    color: lightpink;
+  }
+
+  #mrBig {
+      text-align: center;
+      font-size: 50px;
+      color: green;
+  }
+
+  #mrBig_a {
+      text-align: center;
+      justify-content: center;
+  }
+
+  #cos_form_div {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .menu_h2 {
+      text-align: center;
+  }
+
+  .cos {
+      text-align: center;
+  }

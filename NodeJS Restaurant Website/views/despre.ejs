@@ -1,0 +1,35 @@
+<nav>
+    <div class = "nav_div">
+        <a class= "nav_a" href="/">Acasa</a> 
+        |
+        <a class= "nav_a" href="/despre">Despre</a> 
+        |
+        <a class= "nav_a" href="/contact">Contact</a> 
+        |
+        <% if(creatDB) {%>
+            <a class= "nav_a" href="/meniu">Meniu</a> 
+        <% } else { %>
+            <a class= "nav_a" href="/creare-db">Meniu</a>
+        <% } %>
+        </div>
+</nav>
+<% if (username)  {%>
+    <p id="conectat">Sunteti conectat ca <%=fullname%>. 
+        <a href="/deconectare">Deconectati-va.</a></p>
+    <% } else {%>
+        <p>Nu esti autentificat. <a href="/autentificare">Autentifica-te!</a> </p>
+    <% } %>
+
+<div id="despre_div">
+    <h2>Despre "Adio sesiune"</h2>
+    <p>Afacerea constă într-un pub dedicat studenților, unde vom oferi, pe lângă
+        mâncare și băutură cu prețuri “studențești”, un loc unde poți asculta muzică live de
+        artiști locali sau mai cunoscuți, închiria sala pentru petreceri, veni cu prietenii să
+        învățați sau să va relaxați în zilele mai liniștite din timpul săptămânii, sau să
+        petreceți.
+        </p>
+    <p>Daca doriti sa aflati mai multe despre noi, puteti vizualiza <i>planul nostru de afaceri </i> <a  onclick="showBusinessPlan()">aici.</a></p>
+    <div id="plan_afaceri"></div>
+    
+    </iframe>
+</div>

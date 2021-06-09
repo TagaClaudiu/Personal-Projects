@@ -1,0 +1,19 @@
+<div id="comanda_div">
+<% if (username)  {%>
+    <p id="conectat">Multumim pentru ca ai comandat de la noi, <%=fullname%>. 
+        
+    <% } %>
+
+<p>Mai urmeaza un singur pas. Va rog introduceti adresa la care sa livram.</p>
+<p id="comanda_alert">NU UITATI. COMANDA SE PLATESTE CASH LA MOMENTUL SOSIRII SALE. </p>
+
+<form id="comanda" method="POST" action="trimite-comanda">
+
+    <label for="adresa"> Introduceti adresa: </label>
+    <input type="text" id="adresa" name="Adresa"><br><br>
+            
+    <input type="submit" id="submit" value="Trimite Comanda">
+
+</form>
+
+</div>

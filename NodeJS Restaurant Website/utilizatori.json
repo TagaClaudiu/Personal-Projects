@@ -1,0 +1,18 @@
+{
+    "Utilizatori": [
+        {
+            "username": "vex",
+            "password": "vex",
+            "fullname": "Vexters",
+            "role": "ADMIN"
+        },
+
+        {
+            "username": "anon",
+            "password": "anon",
+            "fullname": "Anonim",
+            "role": "VIZITATOR"
+        }
+    ]
+    
+}

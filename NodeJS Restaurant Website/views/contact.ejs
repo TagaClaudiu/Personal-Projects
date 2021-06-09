@@ -1,0 +1,70 @@
+<nav>
+    <div class = "nav_div">
+        <a class= "nav_a" href="/">Acasa</a> 
+        |
+        <a class= "nav_a" href="/despre">Despre</a> 
+        |
+        <a class= "nav_a" href="/contact">Contact</a> 
+        |
+        <% if(creatDB) {%>
+            <a class= "nav_a" href="/meniu">Meniu</a> 
+        <% } else { %>
+            <a class= "nav_a" href="/creare-db">Meniu</a>
+        <% } %>
+        </div>
+</nav>
+<% if (username)  {%>
+    <p id="conectat">Sunteti conectat ca <%=fullname%>. 
+        <a href="/deconectare">Deconectati-va.</a></p>
+    <% } else {%>
+        <p>Nu esti autentificat. <a href="/autentificare">Autentifica-te!</a> </p>
+    <% } %>
+
+<div id="program_div">
+    <h2>Metode de contact</h2>
+    <p>Ne puteti contacta la:<br> NUMAR DE TELEFON: 0740010001 <br> Adresa: PubulAdio@Sesiune.com</p>
+    <br>
+    <p>Programul nostru de munca este:</p>
+    <table id = "program_table">
+        <tr>
+            <th>Ziua</th>
+            <th>Program</th>
+        </tr>
+        <tr>
+            <td>Luni</td>
+            <td>14:00 - 22:00</td>
+        </tr>
+        <tr>
+            <td>Marti</td>
+            <td>14:00 - 22:00</td>
+        </tr>
+        <tr>
+            <td>Miercuri</td>
+            <td>14:00 - 22:00</td>
+        </tr>
+        <tr>
+            <td>Joi</td>
+            <td>14:00 - 22:00</td>
+        </tr>
+        <tr>
+            <td>Vineri</td>
+            <td>15:00 - 23:00</td>
+        </tr>
+        <tr>
+            <td>Sambata</td>
+            <td>15:00 - 23:00</td>
+        </tr>
+        <tr>
+            <td>Duminica</td>
+            <td>14:00 - 22:00</td>
+        </tr>
+    </table>
+    <br>
+    <a id="clock_a" onclick="showTime()">Afiseaza data si ora curenta!</a> 
+        <div id="js_time"></div>
+        <div id="js_calcTime"></div>
+    <br>
+    <p>Locatia pubului: <br>  în campusul Tudor Vladimirescu, pe Aleea Profesor Vasile
+        Petrescu, lângă căminul T22.  (Latitudine: 47.157301247, Longitudine: 27.6066255569) </p>
+
+</div>
